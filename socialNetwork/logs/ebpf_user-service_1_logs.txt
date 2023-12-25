@@ -1,0 +1,16 @@
+[2023-Aug-19 05:53:36.138241] <info>: (UserHandler.h:932:GetMachineId) MAC address = 02:42:ac:1a:00:18
+[2023-Aug-19 05:53:36.138514] <info>: (UserService.cpp:63:main) machine_id = 13a
+[2023-Aug-19 05:53:36.168415] <info>: (UserService.cpp:94:main) Starting the user-service server ...
+[2023-Aug-19 06:05:02.900737] <warning>: (UserHandler.h:656:Login) User: neha doesn't exist in MongoDB
+[2023-Aug-19 06:05:22.766048] <warning>: (UserHandler.h:311:RegisterUser) User mark already existed.
+[2023-Aug-19 06:05:22.766414] <warning>: (UserHandler.h:311:RegisterUser) User bill already existed.
+[2023-Aug-19 06:05:22.769745] <warning>: (UserHandler.h:311:RegisterUser) User elon already existed.
+[2023-Aug-19 06:05:25.740537] <warning>: (UserHandler.h:837:GetUserId) User: null doesn't exist in MongoDB
+[2023-Aug-19 06:05:32.771916] <warning>: (UserHandler.h:837:GetUserId) User: null doesn't exist in MongoDB
+[2023-Aug-19 06:05:36.447725] <warning>: (UserHandler.h:311:RegisterUser) User elon already existed.
+[2023-Aug-19 06:05:36.447750] <warning>: (UserHandler.h:311:RegisterUser) User bill already existed.
+[2023-Aug-19 06:05:36.447977] <warning>: (UserHandler.h:311:RegisterUser) User mark already existed.
+[2023-Aug-19 06:06:23.914227] <warning>: (UserHandler.h:311:RegisterUser) User mark already existed.
+[2023-Aug-19 06:06:23.914720] <warning>: (UserHandler.h:311:RegisterUser) User elon already existed.
+[2023-Aug-19 06:06:23.915134] <warning>: (UserHandler.h:311:RegisterUser) User bill already existed.
+[2023-Aug-19 06:06:30.549564] <warning>: (UserHandler.h:837:GetUserId) User: null doesn't exist in MongoDB

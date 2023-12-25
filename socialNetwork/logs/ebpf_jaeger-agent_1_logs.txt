@@ -1,0 +1,69 @@
+2023/08/19 05:54:42 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+{"level":"info","ts":1692424482.861259,"caller":"flags/service.go:119","msg":"Mounting metrics handler on admin server","route":"/metrics"}
+{"level":"info","ts":1692424482.8614001,"caller":"flags/service.go:125","msg":"Mounting expvar handler on admin server","route":"/debug/vars"}
+{"level":"info","ts":1692424482.861718,"caller":"flags/admin.go:129","msg":"Mounting health check on admin server","route":"/"}
+{"level":"info","ts":1692424482.861869,"caller":"flags/admin.go:143","msg":"Starting admin HTTP server","http-addr":":14269"}
+{"level":"info","ts":1692424482.8619504,"caller":"flags/admin.go:121","msg":"Admin server started","http.host-port":"[::]:14269","health-status":"unavailable"}
+{"level":"info","ts":1692424482.865063,"caller":"memory/factory.go:66","msg":"Memory storage initialized","configuration":{"MaxTraces":0}}
+{"level":"info","ts":1692424482.8661752,"caller":"static/strategy_store.go:138","msg":"Loading sampling strategies","filename":"/etc/jaeger/sampling_strategies.json"}
+{"level":"info","ts":1692424482.9337833,"caller":"grpc@v1.56.1/server.go:629","msg":"[core][Server #1] Server created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.94422,"caller":"server/grpc.go:104","msg":"Starting jaeger-collector gRPC server","grpc.host-port":"[::]:14250"}
+{"level":"info","ts":1692424482.9492085,"caller":"server/http.go:56","msg":"Starting jaeger-collector HTTP server","http host-port":":14268"}
+{"level":"info","ts":1692424482.949399,"caller":"grpc@v1.56.1/server.go:817","msg":"[core][Server #1 ListenSocket #2] ListenSocket created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9498377,"caller":"server/zipkin.go:53","msg":"Not listening for Zipkin HTTP traffic, port not configured"}
+{"level":"warn","ts":1692424482.9499395,"caller":"internal@v0.81.0/warning.go:40","msg":"Using the 0.0.0.0 address exposes this server to every network interface, which may facilitate Denial of Service attacks","documentation":"https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/security-best-practices.md#safeguards-against-denial-of-service-attacks"}
+{"level":"info","ts":1692424482.9500573,"caller":"grpc@v1.56.1/server.go:629","msg":"[core][Server #3] Server created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9501011,"caller":"otlpreceiver@v0.81.0/otlp.go:83","msg":"Starting GRPC server","endpoint":"0.0.0.0:4317"}
+{"level":"warn","ts":1692424482.9501762,"caller":"internal@v0.81.0/warning.go:40","msg":"Using the 0.0.0.0 address exposes this server to every network interface, which may facilitate Denial of Service attacks","documentation":"https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/security-best-practices.md#safeguards-against-denial-of-service-attacks"}
+{"level":"info","ts":1692424482.950227,"caller":"otlpreceiver@v0.81.0/otlp.go:101","msg":"Starting HTTP server","endpoint":"0.0.0.0:4318"}
+{"level":"info","ts":1692424482.950249,"caller":"grpc@v1.56.1/server.go:817","msg":"[core][Server #3 ListenSocket #4] ListenSocket created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9503138,"caller":"grpc/builder.go:73","msg":"Agent requested insecure grpc connection to collector(s)"}
+{"level":"info","ts":1692424482.950435,"caller":"grpc@v1.56.1/clientconn.go:476","msg":"[core][Channel #5] Channel created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9505067,"caller":"grpc@v1.56.1/clientconn.go:1770","msg":"[core][Channel #5] original dial target is: \":14250\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.950563,"caller":"grpc@v1.56.1/clientconn.go:1775","msg":"[core][Channel #5] dial target \":14250\" parse failed: parse \":14250\": missing protocol scheme","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9506009,"caller":"grpc@v1.56.1/clientconn.go:1791","msg":"[core][Channel #5] fallback to scheme \"passthrough\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.954518,"caller":"grpc@v1.56.1/clientconn.go:1799","msg":"[core][Channel #5] parsed dial target is: {Scheme:passthrough Authority: URL:{Scheme:passthrough Opaque: User: Host: Path:/:14250 RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9545834,"caller":"grpc@v1.56.1/clientconn.go:1877","msg":"[core][Channel #5] Channel authority set to \"localhost:14250\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9634256,"caller":"grpc@v1.56.1/resolver_conn_wrapper.go:238","msg":"[core][Channel #5] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \":14250\",\n      \"ServerName\": \"\",\n      \"Attributes\": null,\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9635491,"caller":"grpc@v1.56.1/balancer_conn_wrappers.go:192","msg":"[core][Channel #5] Channel switches to new LB policy \"round_robin\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.963659,"caller":"grpc@v1.56.1/balancer_conn_wrappers.go:312","msg":"[core][Channel #5 SubChannel #6] Subchannel created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9637697,"caller":"base/balancer.go:177","msg":"[roundrobin]roundrobinPicker: Build called with info: {map[]}","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.96381,"caller":"grpc@v1.56.1/clientconn.go:564","msg":"[core][Channel #5] Channel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9639595,"caller":"grpc@v1.56.1/clientconn.go:1285","msg":"[core][Channel #5 SubChannel #6] Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9640594,"caller":"grpc@v1.56.1/clientconn.go:1398","msg":"[core][Channel #5 SubChannel #6] Subchannel picks a new address \":14250\" to connect","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.964183,"caller":"grpc/builder.go:113","msg":"Checking connection to collector"}
+{"level":"info","ts":1692424482.9643235,"caller":"grpc/builder.go:124","msg":"Agent collector connection state change","dialTarget":":14250","status":"CONNECTING"}
+{"level":"info","ts":1692424482.9656014,"caller":"./main.go:257","msg":"Starting agent"}
+{"level":"info","ts":1692424482.9657056,"caller":"querysvc/query_service.go:134","msg":"Archive storage not created","reason":"archive storage not supported"}
+{"level":"info","ts":1692424482.98043,"caller":"app/flags.go:141","msg":"Archive storage not initialized"}
+{"level":"info","ts":1692424482.9660084,"caller":"app/agent.go:69","msg":"Starting jaeger-agent HTTP server","http-port":5778}
+{"level":"info","ts":1692424482.966154,"caller":"grpc@v1.56.1/clientconn.go:1285","msg":"[core][Channel #5 SubChannel #6] Subchannel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.980737,"caller":"base/balancer.go:177","msg":"[roundrobin]roundrobinPicker: Build called with info: {map[SubConn(id:6):{{Addr: \":14250\", ServerName: \"\", }}]}","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9807978,"caller":"grpc@v1.56.1/clientconn.go:564","msg":"[core][Channel #5] Channel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.980828,"caller":"grpc/builder.go:124","msg":"Agent collector connection state change","dialTarget":":14250","status":"READY"}
+{"level":"info","ts":1692424482.9811492,"caller":"grpc@v1.56.1/server.go:629","msg":"[core][Server #9] Server created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9813292,"caller":"grpc@v1.56.1/clientconn.go:476","msg":"[core][Channel #10] Channel created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.981354,"caller":"grpc@v1.56.1/clientconn.go:1770","msg":"[core][Channel #10] original dial target is: \":16685\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9813735,"caller":"grpc@v1.56.1/clientconn.go:1775","msg":"[core][Channel #10] dial target \":16685\" parse failed: parse \":16685\": missing protocol scheme","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9813845,"caller":"grpc@v1.56.1/clientconn.go:1791","msg":"[core][Channel #10] fallback to scheme \"passthrough\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9814482,"caller":"grpc@v1.56.1/clientconn.go:1799","msg":"[core][Channel #10] parsed dial target is: {Scheme:passthrough Authority: URL:{Scheme:passthrough Opaque: User: Host: Path:/:16685 RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9814718,"caller":"grpc@v1.56.1/clientconn.go:1877","msg":"[core][Channel #10] Channel authority set to \"localhost:16685\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9816103,"caller":"grpc@v1.56.1/resolver_conn_wrapper.go:238","msg":"[core][Channel #10] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \":16685\",\n      \"ServerName\": \"\",\n      \"Attributes\": null,\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9817283,"caller":"grpc@v1.56.1/balancer_conn_wrappers.go:192","msg":"[core][Channel #10] Channel switches to new LB policy \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9818096,"caller":"grpc@v1.56.1/balancer_conn_wrappers.go:312","msg":"[core][Channel #10 SubChannel #11] Subchannel created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9818637,"caller":"grpc@v1.56.1/clientconn.go:564","msg":"[core][Channel #10] Channel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9819672,"caller":"grpc@v1.56.1/clientconn.go:1285","msg":"[core][Channel #10 SubChannel #11] Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.982087,"caller":"grpc@v1.56.1/clientconn.go:1398","msg":"[core][Channel #10 SubChannel #11] Subchannel picks a new address \":16685\" to connect","system":"grpc","grpc_log":true}
+{"level":"warn","ts":1692424482.9823647,"caller":"grpc@v1.56.1/clientconn.go:1460","msg":"[core][Channel #10 SubChannel #11] grpc: addrConn.createTransport failed to connect to {Addr: \":16685\", ServerName: \"localhost:16685\", }. Err: connection error: desc = \"transport: Error while dialing: dial tcp :16685: connect: connection refused\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9824543,"caller":"grpc@v1.56.1/clientconn.go:1287","msg":"[core][Channel #10 SubChannel #11] Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = \"transport: Error while dialing: dial tcp :16685: connect: connection refused\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9824736,"caller":"grpc@v1.56.1/clientconn.go:564","msg":"[core][Channel #10] Channel Connectivity change to TRANSIENT_FAILURE","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424482.9837031,"caller":"app/server.go:215","msg":"Query server started","http_addr":"[::]:16686","grpc_addr":"[::]:16685"}
+{"level":"info","ts":1692424482.9837747,"caller":"healthcheck/handler.go:129","msg":"Health Check state change","status":"ready"}
+{"level":"info","ts":1692424482.9838064,"caller":"app/server.go:298","msg":"Starting GRPC server","port":16685,"addr":":16685"}
+{"level":"info","ts":1692424482.9838943,"caller":"app/server.go:279","msg":"Starting HTTP server","port":16686,"addr":":16686"}
+{"level":"info","ts":1692424482.9838252,"caller":"grpc@v1.56.1/server.go:817","msg":"[core][Server #9 ListenSocket #12] ListenSocket created","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424483.9834085,"caller":"grpc@v1.56.1/clientconn.go:1287","msg":"[core][Channel #10 SubChannel #11] Subchannel Connectivity change to IDLE, last error: connection error: desc = \"transport: Error while dialing: dial tcp :16685: connect: connection refused\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424483.983539,"caller":"grpc@v1.56.1/clientconn.go:1285","msg":"[core][Channel #10 SubChannel #11] Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424483.98356,"caller":"grpc@v1.56.1/clientconn.go:1398","msg":"[core][Channel #10 SubChannel #11] Subchannel picks a new address \":16685\" to connect","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424483.9843001,"caller":"grpc@v1.56.1/clientconn.go:1285","msg":"[core][Channel #10 SubChannel #11] Subchannel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":1692424483.9843268,"caller":"grpc@v1.56.1/clientconn.go:564","msg":"[core][Channel #10] Channel Connectivity change to READY","system":"grpc","grpc_log":true}

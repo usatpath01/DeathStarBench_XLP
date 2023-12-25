@@ -1,0 +1,45 @@
+[2023-Aug-22 06:15:48.307954] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-22 06:19:45.846838] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-22 06:21:09.539047] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-22 06:21:09.539278] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-22 06:23:43.451299] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-22 06:23:50.327664] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-22 06:23:50.328025] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-22 06:23:50.328925] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-22 06:23:50.329072] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 09:29:43.359181] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-23 09:29:47.392156] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 09:29:47.392392] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 09:40:22.297750] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-23 09:44:37.854110] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 09:44:37.854370] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 09:46:53.868881] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 09:46:53.869827] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 09:47:11.689154] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 09:47:11.689399] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 09:50:03.743156] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 09:50:03.743379] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:40:07.940753] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-23 11:40:58.579931] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-23 11:41:18.039705] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:41:18.039990] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:22.503881] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...
+[2023-Aug-23 11:42:30.117111] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:30.117520] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:30.843739] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:30.843852] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:31.343339] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:31.343957] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:31.759675] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:31.759816] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:32.171486] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:32.171587] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:32.592639] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:32.592849] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:33.044751] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:33.044858] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:33.511712] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:33.511847] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-23 11:42:33.949736] <info>: (UrlShortenHandler.h:75:ComposeUrls) Request to COMPOSE URLS received
+[2023-Aug-23 11:42:33.949984] <info>: (UrlShortenHandler.h:167:ComposeUrls) Request to COMPOSE URLS finished
+[2023-Aug-24 07:05:16.117760] <info>: (UrlShortenService.cpp:81:main) Starting the url-shorten-service server...

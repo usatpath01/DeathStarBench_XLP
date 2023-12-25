@@ -1,0 +1,45 @@
+[2023-Aug-22 06:15:48.067159] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-22 06:19:46.059476] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-22 06:21:09.534889] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-22 06:21:09.535110] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-22 06:23:43.541557] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-22 06:23:50.321198] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-22 06:23:50.321617] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-22 06:23:50.322677] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-22 06:23:50.323533] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 09:29:42.673350] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-23 09:29:47.386363] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 09:29:47.386893] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 09:40:22.297819] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-23 09:44:37.849542] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 09:44:37.850286] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 09:46:53.867617] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 09:46:53.867784] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 09:47:11.686990] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 09:47:11.687207] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 09:50:03.740991] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 09:50:03.741189] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:40:07.671854] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-23 11:40:58.504516] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-23 11:41:18.036292] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:41:18.036628] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:22.819550] <info>: (MediaService.cpp:37:main) Starting the media-service server...
+[2023-Aug-23 11:42:30.113829] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:30.114118] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:30.842656] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:30.842785] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:31.342381] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:31.342542] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:31.758405] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:31.758589] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:32.170287] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:32.170566] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:32.591589] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:32.591719] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:33.044030] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:33.044191] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:33.510900] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:33.511067] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-23 11:42:33.948547] <info>: (MediaHandler.h:36:ComposeMedia) Request to COMPOSE MEDIA received
+[2023-Aug-23 11:42:33.948746] <info>: (MediaHandler.h:61:ComposeMedia) Request to COMPOSE MEDIA finished
+[2023-Aug-24 07:05:16.128974] <info>: (MediaService.cpp:37:main) Starting the media-service server...

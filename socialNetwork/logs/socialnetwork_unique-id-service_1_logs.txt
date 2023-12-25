@@ -1,0 +1,63 @@
+[2023-Aug-22 06:15:48.427263] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:1b
+[2023-Aug-22 06:15:48.427500] <info>: (UniqueIdService.cpp:49:main) machine_id = 13c
+[2023-Aug-22 06:15:48.427550] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-22 06:19:44.593621] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:13
+[2023-Aug-22 06:19:44.593885] <info>: (UniqueIdService.cpp:49:main) machine_id = 10d
+[2023-Aug-22 06:19:44.594079] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-22 06:21:09.535066] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-22 06:21:09.535374] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-22 06:23:43.494462] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:1b
+[2023-Aug-22 06:23:43.495485] <info>: (UniqueIdService.cpp:49:main) machine_id = 13c
+[2023-Aug-22 06:23:43.496588] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-22 06:23:50.323776] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-22 06:23:50.324631] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-22 06:23:50.324885] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-22 06:23:50.325119] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 09:29:42.956105] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:1b
+[2023-Aug-23 09:29:42.956361] <info>: (UniqueIdService.cpp:49:main) machine_id = 13c
+[2023-Aug-23 09:29:42.956431] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-23 09:29:47.385977] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 09:29:47.386273] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 09:40:22.235690] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:17
+[2023-Aug-23 09:40:22.235938] <info>: (UniqueIdService.cpp:49:main) machine_id = 111
+[2023-Aug-23 09:40:22.236016] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-23 09:44:37.848108] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 09:44:37.848689] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 09:46:53.867553] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 09:46:53.868060] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 09:47:11.687559] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 09:47:11.687833] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 09:50:03.741433] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 09:50:03.741607] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:40:08.176450] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:1c
+[2023-Aug-23 11:40:08.176618] <info>: (UniqueIdService.cpp:49:main) machine_id = 13d
+[2023-Aug-23 11:40:08.176799] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-23 11:40:58.545918] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:1b
+[2023-Aug-23 11:40:58.546108] <info>: (UniqueIdService.cpp:49:main) machine_id = 13c
+[2023-Aug-23 11:40:58.546161] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-23 11:41:18.035992] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:41:18.036411] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:22.875377] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:18
+[2023-Aug-23 11:42:22.875555] <info>: (UniqueIdService.cpp:49:main) machine_id = 112
+[2023-Aug-23 11:42:22.875601] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...
+[2023-Aug-23 11:42:30.113553] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:30.113832] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:30.842519] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:30.842724] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:31.342310] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:31.342772] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:31.758227] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:31.758353] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:32.170153] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:32.170276] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:32.591515] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:32.591651] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:33.044025] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:33.044197] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:33.510848] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:33.511048] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-23 11:42:33.948486] <info>: (UniqueIdHandler.h:65:ComposeUniqueId) Request to COMPOSE UNIQUE ID received
+[2023-Aug-23 11:42:33.948712] <info>: (UniqueIdHandler.h:109:ComposeUniqueId) Request to COMPOSE UNIQUE ID finished
+[2023-Aug-24 07:05:15.660737] <info>: (UniqueIdHandler.h:147:GetMachineId) MAC address = 02:42:ac:19:00:17
+[2023-Aug-24 07:05:15.661033] <info>: (UniqueIdService.cpp:49:main) machine_id = 111
+[2023-Aug-24 07:05:15.661079] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...

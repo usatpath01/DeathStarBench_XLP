@@ -1,0 +1,45 @@
+[2023-Aug-22 06:15:47.767436] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-22 06:19:45.383038] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-22 06:21:09.536130] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-22 06:21:09.541757] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-22 06:23:42.196426] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-22 06:23:50.323034] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-22 06:23:50.325544] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-22 06:23:50.330092] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-22 06:23:50.330658] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 09:29:42.208910] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-23 09:29:47.388653] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 09:29:47.392706] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 09:40:22.219893] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-23 09:44:37.850301] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 09:44:37.854858] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 09:46:53.867991] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 09:46:53.871023] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 09:47:11.685439] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 09:47:11.699317] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 09:50:03.741146] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 09:50:03.744347] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:40:07.161640] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-23 11:40:57.560913] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-23 11:41:18.037371] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:41:18.040255] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:21.906183] <info>: (TextService.cpp:58:main) Starting the text-service server...
+[2023-Aug-23 11:42:30.115031] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:30.118019] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:30.842883] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:30.844245] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:31.342515] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:31.344601] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:31.758625] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:31.760120] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:32.170688] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:32.172310] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:32.591735] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:32.593066] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:33.044090] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:33.045263] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:33.510991] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:33.512329] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-23 11:42:33.948864] <info>: (TextHandler.h:45:ComposeText) Request to COMPOSE TEXT received
+[2023-Aug-23 11:42:33.950400] <info>: (TextHandler.h:170:ComposeText) Request to COMPOSE TEXT finised
+[2023-Aug-24 07:05:16.035360] <info>: (TextService.cpp:58:main) Starting the text-service server...

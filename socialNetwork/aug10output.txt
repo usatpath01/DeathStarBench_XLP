@@ -1,0 +1,566 @@
+Script started on 2023-08-10 16:45:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="101" LINES="53"]
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker [K-compose down
+[sudo] password for dsbench: 
+Stopping socialnetwork_media-service_1          ... 
+Stopping socialnetwork_user-mention-service_1   ... 
+Stopping socialnetwork_home-timeline-service_1  ... 
+Stopping socialnetwork_nginx-thrift_1           ... 
+Stopping socialnetwork_user-service_1           ... 
+Stopping socialnetwork_social-graph-service_1   ... 
+Stopping socialnetwork_compose-post-service_1   ... 
+Stopping socialnetwork_user-timeline-service_1  ... 
+Stopping socialnetwork_text-service_1           ... 
+Stopping socialnetwork_unique-id-service_1      ... 
+Stopping socialnetwork_media-frontend_1         ... 
+Stopping socialnetwork_url-shorten-service_1    ... 
+Stopping socialnetwork_post-storage-service_1   ... 
+Stopping socialnetwork_jaeger-agent_1           ... 
+Stopping socialnetwork_user-memcached_1         ... 
+Stopping socialnetwork_user-timeline-mongodb_1  ... 
+Stopping socialnetwork_url-shorten-mongodb_1    ... 
+Stopping socialnetwork_media-mongodb_1          ... 
+Stopping socialnetwork_user-timeline-redis_1    ... 
+Stopping socialnetwork_post-storage-memcached_1 ... 
+Stopping socialnetwork_social-graph-mongodb_1   ... 
+Stopping socialnetwork_social-graph-redis_1     ... 
+Stopping socialnetwork_media-memcached_1        ... 
+Stopping socialnetwork_post-storage-mongodb_1   ... 
+Stopping socialnetwork_url-shorten-memcached_1  ... 
+Stopping socialnetwork_home-timeline-redis_1    ... 
+Stopping socialnetwork_user-mongodb_1           ... 
+[2A[2KStopping socialnetwork_home-timeline-redis_1    ... [32mdone[0m[2B[17A[2KStopping socialnetwork_media-frontend_1         ... [32mdone[0m[17B[6A[2KStopping socialnetwork_social-graph-redis_1     ... [32mdone[0m[6B[9A[2KStopping socialnetwork_user-timeline-redis_1    ... [32mdone[0m[9B[24A[2KStopping socialnetwork_nginx-thrift_1           ... [32mdone[0m[24B[13A[2KStopping socialnetwork_user-memcached_1         ... [32mdone[0m[13B[8A[2KStopping socialnetwork_post-storage-memcached_1 ... [32mdone[0m[8B[5A[2KStopping socialnetwork_media-memcached_1        ... [32mdone[0m[5B[3A[2KStopping socialnetwork_url-shorten-memcached_1  ... [32mdone[0m[3B[18A[2KStopping socialnetwork_unique-id-service_1      ... [32mdone[0m[18B[27A[2KStopping socialnetwork_media-service_1          ... [32mdone[0m[27B[23A[2KStopping socialnetwork_user-service_1           ... [32mdone[0m[23B[25A[2KStopping socialnetwork_home-timeline-service_1  ... [32mdone[0m[25B[26A[2KStopping socialnetwork_user-mention-service_1   ... [32mdone[0m[26B[21A[2KStopping socialnetwork_compose-post-service_1   ... [32mdone[0m[21B[22A[2KStopping socialnetwork_social-graph-service_1   ... [32mdone[0m[22B[20A[2KStopping socialnetwork_user-timeline-service_1  ... [32mdone[0m[20B[19A[2KStopping socialnetwork_text-service_1           ... [32mdone[0m[19B[15A[2KStopping socialnetwork_post-storage-service_1   ... [32mdone[0m[15B[10A[2KStopping socialnetwork_media-mongodb_1          ... [32mdone[0m[10B[16A[2KStopping socialnetwork_url-shorten-service_1    ... [32mdone[0m[16B[1A[2KStopping socialnetwork_user-mongodb_1           ... [32mdone[0m[1B[7A[2KStopping socialnetwork_social-graph-mongodb_1   ... [32mdone[0m[7B[12A[2KStopping socialnetwork_user-timeline-mongodb_1  ... [32mdone[0m[12B[4A[2KStopping socialnetwork_post-storage-mongodb_1   ... [32mdone[0m[4B[11A[2KStopping socialnetwork_url-shorten-mongodb_1    ... [32mdone[0m[11B[14A[2KStopping socialnetwork_jaeger-agent_1           ... [32mdone[0m[14BRemoving socialnetwork_media-service_1          ... 
+Removing socialnetwork_user-mention-service_1   ... 
+Removing socialnetwork_home-timeline-service_1  ... 
+Removing socialnetwork_nginx-thrift_1           ... 
+Removing socialnetwork_user-service_1           ... 
+Removing socialnetwork_social-graph-service_1   ... 
+Removing socialnetwork_compose-post-service_1   ... 
+Removing socialnetwork_user-timeline-service_1  ... 
+Removing socialnetwork_text-service_1           ... 
+Removing socialnetwork_unique-id-service_1      ... 
+Removing socialnetwork_media-frontend_1         ... 
+Removing socialnetwork_url-shorten-service_1    ... 
+Removing socialnetwork_post-storage-service_1   ... 
+Removing socialnetwork_jaeger-agent_1           ... 
+Removing socialnetwork_user-memcached_1         ... 
+Removing socialnetwork_user-timeline-mongodb_1  ... 
+Removing socialnetwork_url-shorten-mongodb_1    ... 
+Removing socialnetwork_media-mongodb_1          ... 
+Removing socialnetwork_user-timeline-redis_1    ... 
+Removing socialnetwork_post-storage-memcached_1 ... 
+Removing socialnetwork_social-graph-mongodb_1   ... 
+Removing socialnetwork_social-graph-redis_1     ... 
+Removing socialnetwork_media-memcached_1        ... 
+Removing socialnetwork_post-storage-mongodb_1   ... 
+Removing socialnetwork_url-shorten-memcached_1  ... 
+Removing socialnetwork_home-timeline-redis_1    ... 
+Removing socialnetwork_user-mongodb_1           ... 
+[2A[2KRemoving socialnetwork_home-timeline-redis_1    ... [32mdone[0m[2B[27A[2KRemoving socialnetwork_media-service_1          ... [32mdone[0m[27B[17A[2KRemoving socialnetwork_media-frontend_1         ... [32mdone[0m[17B[21A[2KRemoving socialnetwork_compose-post-service_1   ... [32mdone[0m[21B[23A[2KRemoving socialnetwork_user-service_1           ... [32mdone[0m[23B[22A[2KRemoving socialnetwork_social-graph-service_1   ... [32mdone[0m[22B[18A[2KRemoving socialnetwork_unique-id-service_1      ... [32mdone[0m[18B[13A[2KRemoving socialnetwork_user-memcached_1         ... [32mdone[0m[13B[26A[2KRemoving socialnetwork_user-mention-service_1   ... [32mdone[0m[26B[25A[2KRemoving socialnetwork_home-timeline-service_1  ... [32mdone[0m[25B[5A[2KRemoving socialnetwork_media-memcached_1        ... [32mdone[0m[5B[14A[2KRemoving socialnetwork_jaeger-agent_1           ... [32mdone[0m[14B[20A[2KRemoving socialnetwork_user-timeline-service_1  ... [32mdone[0m[20B[24A[2KRemoving socialnetwork_nginx-thrift_1           ... [32mdone[0m[24B[19A[2KRemoving socialnetwork_text-service_1           ... [32mdone[0m[19B[6A[2KRemoving socialnetwork_social-graph-redis_1     ... [32mdone[0m[6B[15A[2KRemoving socialnetwork_post-storage-service_1   ... [32mdone[0m[15B[3A[2KRemoving socialnetwork_url-shorten-memcached_1  ... [32mdone[0m[3B[1A[2KRemoving socialnetwork_user-mongodb_1           ... [32mdone[0m[1B[11A[2KRemoving socialnetwork_url-shorten-mongodb_1    ... [32mdone[0m[11B[10A[2KRemoving socialnetwork_media-mongodb_1          ... [32mdone[0m[10B[8A[2KRemoving socialnetwork_post-storage-memcached_1 ... [32mdone[0m[8B[12A[2KRemoving socialnetwork_user-timeline-mongodb_1  ... [32mdone[0m[12B[9A[2KRemoving socialnetwork_user-timeline-redis_1    ... [32mdone[0m[9B[4A[2KRemoving socialnetwork_post-storage-mongodb_1   ... [32mdone[0m[4B[7A[2KRemoving socialnetwork_social-graph-mongodb_1   ... [32mdone[0m[7B[16A[2KRemoving socialnetwork_url-shorten-service_1    ... [32mdone[0m[16BRemoving network socialnetwork_default
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker network ls
+NETWORK ID     NAME      DRIVER    SCOPE
+5516d9e64923   bridge    bridge    local
+d88859585180   host      host      local
+889257aa07ec   none      null      local
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo[K[K[K[Ksudo docker network ls[5Pps -a-compose down[K[K[K[Kup -d
+Creating network "socialnetwork_default" with the default driver
+Creating socialnetwork_jaeger-agent_1 ... 
+Creating socialnetwork_post-storage-memcached_1 ... 
+Creating socialnetwork_post-storage-mongodb_1   ... 
+Creating socialnetwork_home-timeline-redis_1    ... 
+Creating socialnetwork_social-graph-redis_1     ... 
+Creating socialnetwork_user-timeline-mongodb_1  ... 
+Creating socialnetwork_url-shorten-mongodb_1    ... 
+Creating socialnetwork_user-mongodb_1           ... 
+Creating socialnetwork_social-graph-mongodb_1   ... 
+Creating socialnetwork_media-memcached_1        ... 
+Creating socialnetwork_user-memcached_1         ... 
+Creating socialnetwork_user-timeline-redis_1    ... 
+Creating socialnetwork_media-mongodb_1          ... 
+Creating socialnetwork_url-shorten-memcached_1  ... 
+[14A[2KCreating socialnetwork_jaeger-agent_1           ... [32mdone[0m[14BCreating socialnetwork_compose-post-service_1   ... 
+Creating socialnetwork_user-mention-service_1   ... 
+Creating socialnetwork_text-service_1           ... 
+Creating socialnetwork_media-frontend_1         ... 
+Creating socialnetwork_home-timeline-service_1  ... 
+Creating socialnetwork_unique-id-service_1      ... 
+Creating socialnetwork_nginx-thrift_1           ... 
+[14A[2KCreating socialnetwork_user-mongodb_1           ... [32mdone[0m[14BCreating socialnetwork_user-service_1           ... 
+[18A[2KCreating socialnetwork_social-graph-redis_1     ... [32mdone[0m[18B[21A[2KCreating socialnetwork_post-storage-memcached_1 ... [32mdone[0m[21B[12A[2KCreating socialnetwork_user-memcached_1         ... [32mdone[0m[12B[20A[2KCreating socialnetwork_home-timeline-redis_1    ... [32mdone[0m[20B[19A[2KCreating socialnetwork_post-storage-mongodb_1   ... [32mdone[0m[19BCreating socialnetwork_post-storage-service_1   ... 
+[11A[2KCreating socialnetwork_media-mongodb_1          ... [32mdone[0m[11BCreating socialnetwork_media-service_1          ... 
+[15A[2KCreating socialnetwork_media-memcached_1        ... [32mdone[0m[15B[16A[2KCreating socialnetwork_social-graph-mongodb_1   ... [32mdone[0m[16BCreating socialnetwork_social-graph-service_1   ... 
+[19A[2KCreating socialnetwork_url-shorten-mongodb_1    ... [32mdone[0m[19BCreating socialnetwork_url-shorten-service_1    ... 
+[12A[2KCreating socialnetwork_compose-post-service_1   ... [32mdone[0m[12B[13A[2KCreating socialnetwork_url-shorten-memcached_1  ... [32mdone[0m[13B[15A[2KCreating socialnetwork_user-timeline-redis_1    ... [32mdone[0m[15B[21A[2KCreating socialnetwork_user-timeline-mongodb_1  ... [32mdone[0m[21BCreating socialnetwork_user-timeline-service_1  ... 
+[8A[2KCreating socialnetwork_unique-id-service_1      ... [32mdone[0m[8B[12A[2KCreating socialnetwork_user-mention-service_1   ... [32mdone[0m[12B[10A[2KCreating socialnetwork_media-frontend_1         ... [32mdone[0m[10B[11A[2KCreating socialnetwork_text-service_1           ... [32mdone[0m[11B[6A[2KCreating socialnetwork_user-service_1           ... [32mdone[0m[6B[9A[2KCreating socialnetwork_home-timeline-service_1  ... [32mdone[0m[9B[7A[2KCreating socialnetwork_nginx-thrift_1           ... [32mdone[0m[7B[4A[2KCreating socialnetwork_media-service_1          ... [32mdone[0m[4B[2A[2KCreating socialnetwork_url-shorten-service_1    ... [32mdone[0m[2B[3A[2KCreating socialnetwork_social-graph-service_1   ... [32mdone[0m[3B[1A[2KCreating socialnetwork_user-timeline-service_1  ... [32mdone[0m[1B[5A[2KCreating socialnetwork_post-storage-service_1   ... [32mdone[0m[5B]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sud[K[K[Kls
+aug10output.txt              [0m[01;34mgen-cpp[0m           README.md
+[01;34mcmake[0m                        [01;34mgen-lua[0m           [01;34mscripts[0m
+CMakeLists.txt               [01;34mgen-py[0m            [01;32msend_postrequests_sequentially.py[0m
+[01;34mconfig[0m                       [01;34mhelm-chart[0m        [01;32msend_postrequests_simultaneously.py[0m
+[01;34mdatasets[0m                     [01;34mkeys[0m              [01;32msendrequests_sequence.sh[0m
+[01;34mdocker[0m                       [01;32mlogcollector.sh[0m   [01;32msendrequests.sh[0m
+docker-compose-sharding.yml  [34;42mlogs[0m              social_network.thrift
+docker-compose-swarm.yml     logs2.txt         [01;34msrc[0m
+docker-compose-tls.yml       [01;32mlogscripter.sh[0m    [01;34mtest[0m
+docker-compose.yml           logs.txt          [01;34mthird_party[0m
+Dockerfile                   [01;34mmedia-frontend[0m    [01;34mwrk2[0m
+Dockerfile-loader            [01;34mnginx-web-server[0m
+[01;34mfigures[0m                      [01;34mopenshift[0m
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ cd logs/
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ ll -h
+total 220K
+drwxrwxrwx  2 dsbench dsbench 4.0K Aug 10 16:35 [0m[34;42m.[0m/
+drwxrwxr-x 21 dsbench dsbench 4.0K Aug 10 16:45 [01;34m..[0m/
+-rw-rw-r--  1 dsbench dsbench  42K Aug 10 16:26 example_logassemble.json
+-rw-rw-r--  1 dsbench dsbench  20K Aug 10 16:26 example_logsassemble_epoch.json
+-rw-rw-r--  1 dsbench dsbench 2.3K Aug 10 16:26 logsassemble_epoch.py
+-rw-rw-r--  1 dsbench dsbench 2.2K Aug 10 16:26 logsassemble.py
+-rw-r--r--  1 root    root     117 Aug 10 16:35 socialnetwork_compose-post-service_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:35 socialnetwork_home-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 16:35 socialnetwork_home-timeline-service_1_logs.txt
+-rw-r--r--  1 root    root     13K Aug 10 16:35 socialnetwork_jaeger-agent_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_media-frontend_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_media-memcached_1_logs.txt
+-rw-r--r--  1 root    root    7.3K Aug 10 16:35 socialnetwork_media-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     102 Aug 10 16:35 socialnetwork_media-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_nginx-thrift_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_post-storage-memcached_1_logs.txt
+-rw-r--r--  1 root    root    9.3K Aug 10 16:35 socialnetwork_post-storage-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 16:35 socialnetwork_post-storage-service_1_logs.txt
+-rw-r--r--  1 root    root     11K Aug 10 16:35 socialnetwork_social-graph-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:35 socialnetwork_social-graph-redis_1_logs.txt
+-rw-r--r--  1 root    root     117 Aug 10 16:35 socialnetwork_social-graph-service_1_logs.txt
+-rw-r--r--  1 root    root     100 Aug 10 16:35 socialnetwork_text-service_1_logs.txt
+-rw-r--r--  1 root    root     302 Aug 10 16:35 socialnetwork_unique-id-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_url-shorten-memcached_1_logs.txt
+-rw-r--r--  1 root    root    9.4K Aug 10 16:35 socialnetwork_url-shorten-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     113 Aug 10 16:35 socialnetwork_url-shorten-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_user-memcached_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 16:35 socialnetwork_user-mention-service_1_logs.txt
+-rw-r--r--  1 root    root    9.3K Aug 10 16:35 socialnetwork_user-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     285 Aug 10 16:35 socialnetwork_user-service_1_logs.txt
+-rw-r--r--  1 root    root    9.4K Aug 10 16:35 socialnetwork_user-timeline-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:35 socialnetwork_user-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 16:35 socialnetwork_user-timeline-service_1_logs.txt
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ cd ../
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ls
+aug10output.txt              [0m[01;34mgen-cpp[0m           README.md
+[01;34mcmake[0m                        [01;34mgen-lua[0m           [01;34mscripts[0m
+CMakeLists.txt               [01;34mgen-py[0m            [01;32msend_postrequests_sequentially.py[0m
+[01;34mconfig[0m                       [01;34mhelm-chart[0m        [01;32msend_postrequests_simultaneously.py[0m
+[01;34mdatasets[0m                     [01;34mkeys[0m              [01;32msendrequests_sequence.sh[0m
+[01;34mdocker[0m                       [01;32mlogcollector.sh[0m   [01;32msendrequests.sh[0m
+docker-compose-sharding.yml  [34;42mlogs[0m              social_network.thrift
+docker-compose-swarm.yml     logs2.txt         [01;34msrc[0m
+docker-compose-tls.yml       [01;32mlogscripter.sh[0m    [01;34mtest[0m
+docker-compose.yml           logs.txt          [01;34mthird_party[0m
+Dockerfile                   [01;34mmedia-frontend[0m    [01;34mwrk2[0m
+Dockerfile-loader            [01;34mnginx-web-server[0m
+[01;34mfigures[0m                      [01;34mopenshift[0m
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo ./send_postrequests_simultaneously.py 
+Successfully upload post
+Successfully upload post
+Successfully upload post
+Successfully upload post
+Successfully upload post
+5 requests have been sent.
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ cd o[Klogs
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ ll -h
+total 220K
+drwxrwxrwx  2 dsbench dsbench 4.0K Aug 10 16:35 [0m[34;42m.[0m/
+drwxrwxr-x 21 dsbench dsbench 4.0K Aug 10 16:45 [01;34m..[0m/
+-rw-rw-r--  1 dsbench dsbench  42K Aug 10 16:26 example_logassemble.json
+-rw-rw-r--  1 dsbench dsbench  20K Aug 10 16:26 example_logsassemble_epoch.json
+-rw-rw-r--  1 dsbench dsbench 2.3K Aug 10 16:26 logsassemble_epoch.py
+-rw-rw-r--  1 dsbench dsbench 2.2K Aug 10 16:26 logsassemble.py
+-rw-r--r--  1 root    root     117 Aug 10 16:35 socialnetwork_compose-post-service_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:35 socialnetwork_home-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 16:35 socialnetwork_home-timeline-service_1_logs.txt
+-rw-r--r--  1 root    root     13K Aug 10 16:35 socialnetwork_jaeger-agent_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_media-frontend_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_media-memcached_1_logs.txt
+-rw-r--r--  1 root    root    7.3K Aug 10 16:35 socialnetwork_media-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     102 Aug 10 16:35 socialnetwork_media-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_nginx-thrift_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_post-storage-memcached_1_logs.txt
+-rw-r--r--  1 root    root    9.3K Aug 10 16:35 socialnetwork_post-storage-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 16:35 socialnetwork_post-storage-service_1_logs.txt
+-rw-r--r--  1 root    root     11K Aug 10 16:35 socialnetwork_social-graph-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:35 socialnetwork_social-graph-redis_1_logs.txt
+-rw-r--r--  1 root    root     117 Aug 10 16:35 socialnetwork_social-graph-service_1_logs.txt
+-rw-r--r--  1 root    root     100 Aug 10 16:35 socialnetwork_text-service_1_logs.txt
+-rw-r--r--  1 root    root     302 Aug 10 16:35 socialnetwork_unique-id-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_url-shorten-memcached_1_logs.txt
+-rw-r--r--  1 root    root    9.4K Aug 10 16:35 socialnetwork_url-shorten-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     113 Aug 10 16:35 socialnetwork_url-shorten-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:35 socialnetwork_user-memcached_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 16:35 socialnetwork_user-mention-service_1_logs.txt
+-rw-r--r--  1 root    root    9.3K Aug 10 16:35 socialnetwork_user-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     285 Aug 10 16:35 socialnetwork_user-service_1_logs.txt
+-rw-r--r--  1 root    root    9.4K Aug 10 16:35 socialnetwork_user-timeline-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:35 socialnetwork_user-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 16:35 socialnetwork_user-timeline-service_1_logs.txt
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ cd ../
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ls
+aug10output.txt              [0m[01;34mgen-cpp[0m           README.md
+[01;34mcmake[0m                        [01;34mgen-lua[0m           [01;34mscripts[0m
+CMakeLists.txt               [01;34mgen-py[0m            [01;32msend_postrequests_sequentially.py[0m
+[01;34mconfig[0m                       [01;34mhelm-chart[0m        [01;32msend_postrequests_simultaneously.py[0m
+[01;34mdatasets[0m                     [01;34mkeys[0m              [01;32msendrequests_sequence.sh[0m
+[01;34mdocker[0m                       [01;32mlogcollector.sh[0m   [01;32msendrequests.sh[0m
+docker-compose-sharding.yml  [34;42mlogs[0m              social_network.thrift
+docker-compose-swarm.yml     logs2.txt         [01;34msrc[0m
+docker-compose-tls.yml       [01;32mlogscripter.sh[0m    [01;34mtest[0m
+docker-compose.yml           logs.txt          [01;34mthird_party[0m
+Dockerfile                   [01;34mmedia-frontend[0m    [01;34mwrk2[0m
+Dockerfile-loader            [01;34mnginx-web-server[0m
+[01;34mfigures[0m                      [01;34mopenshift[0m
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ./sen[K[K[K[K[K./s./u./d./o./ ./[C[Clogcollector.sh 
+Logs for socialnetwork_user-timeline-service_1 saved to ./logs/socialnetwork_user-timeline-service_1_logs.txt
+Logs for socialnetwork_url-shorten-service_1 saved to ./logs/socialnetwork_url-shorten-service_1_logs.txt
+Logs for socialnetwork_social-graph-service_1 saved to ./logs/socialnetwork_social-graph-service_1_logs.txt
+Logs for socialnetwork_media-service_1 saved to ./logs/socialnetwork_media-service_1_logs.txt
+Logs for socialnetwork_post-storage-service_1 saved to ./logs/socialnetwork_post-storage-service_1_logs.txt
+Logs for socialnetwork_user-service_1 saved to ./logs/socialnetwork_user-service_1_logs.txt
+Logs for socialnetwork_nginx-thrift_1 saved to ./logs/socialnetwork_nginx-thrift_1_logs.txt
+Logs for socialnetwork_home-timeline-service_1 saved to ./logs/socialnetwork_home-timeline-service_1_logs.txt
+Logs for socialnetwork_unique-id-service_1 saved to ./logs/socialnetwork_unique-id-service_1_logs.txt
+Logs for socialnetwork_text-service_1 saved to ./logs/socialnetwork_text-service_1_logs.txt
+Logs for socialnetwork_media-frontend_1 saved to ./logs/socialnetwork_media-frontend_1_logs.txt
+Logs for socialnetwork_user-mention-service_1 saved to ./logs/socialnetwork_user-mention-service_1_logs.txt
+Logs for socialnetwork_compose-post-service_1 saved to ./logs/socialnetwork_compose-post-service_1_logs.txt
+Logs for socialnetwork_user-timeline-redis_1 saved to ./logs/socialnetwork_user-timeline-redis_1_logs.txt
+Logs for socialnetwork_media-mongodb_1 saved to ./logs/socialnetwork_media-mongodb_1_logs.txt
+Logs for socialnetwork_url-shorten-memcached_1 saved to ./logs/socialnetwork_url-shorten-memcached_1_logs.txt
+Logs for socialnetwork_media-memcached_1 saved to ./logs/socialnetwork_media-memcached_1_logs.txt
+Logs for socialnetwork_social-graph-mongodb_1 saved to ./logs/socialnetwork_social-graph-mongodb_1_logs.txt
+Logs for socialnetwork_user-memcached_1 saved to ./logs/socialnetwork_user-memcached_1_logs.txt
+Logs for socialnetwork_post-storage-mongodb_1 saved to ./logs/socialnetwork_post-storage-mongodb_1_logs.txt
+Logs for socialnetwork_url-shorten-mongodb_1 saved to ./logs/socialnetwork_url-shorten-mongodb_1_logs.txt
+Logs for socialnetwork_user-timeline-mongodb_1 saved to ./logs/socialnetwork_user-timeline-mongodb_1_logs.txt
+Logs for socialnetwork_user-mongodb_1 saved to ./logs/socialnetwork_user-mongodb_1_logs.txt
+Logs for socialnetwork_social-graph-redis_1 saved to ./logs/socialnetwork_social-graph-redis_1_logs.txt
+Logs for socialnetwork_home-timeline-redis_1 saved to ./logs/socialnetwork_home-timeline-redis_1_logs.txt
+Logs for socialnetwork_post-storage-memcached_1 saved to ./logs/socialnetwork_post-storage-memcached_1_logs.txt
+Logs for socialnetwork_jaeger-agent_1 saved to ./logs/socialnetwork_jaeger-agent_1_logs.txt
+ *************Log collection completed************* 
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ cd logs/
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ ll -h
+total 224K
+drwxrwxrwx  2 dsbench dsbench 4.0K Aug 10 16:35 [0m[34;42m.[0m/
+drwxrwxr-x 21 dsbench dsbench 4.0K Aug 10 16:45 [01;34m..[0m/
+-rw-rw-r--  1 dsbench dsbench  42K Aug 10 16:26 example_logassemble.json
+-rw-rw-r--  1 dsbench dsbench  20K Aug 10 16:26 example_logsassemble_epoch.json
+-rw-rw-r--  1 dsbench dsbench 2.3K Aug 10 16:26 logsassemble_epoch.py
+-rw-rw-r--  1 dsbench dsbench 2.2K Aug 10 16:26 logsassemble.py
+-rw-r--r--  1 root    root     117 Aug 10 16:48 socialnetwork_compose-post-service_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:48 socialnetwork_home-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 16:48 socialnetwork_home-timeline-service_1_logs.txt
+-rw-r--r--  1 root    root     14K Aug 10 16:48 socialnetwork_jaeger-agent_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:48 socialnetwork_media-frontend_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:48 socialnetwork_media-memcached_1_logs.txt
+-rw-r--r--  1 root    root    7.7K Aug 10 16:48 socialnetwork_media-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     102 Aug 10 16:48 socialnetwork_media-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:48 socialnetwork_nginx-thrift_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:48 socialnetwork_post-storage-memcached_1_logs.txt
+-rw-r--r--  1 root    root     11K Aug 10 16:48 socialnetwork_post-storage-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 16:48 socialnetwork_post-storage-service_1_logs.txt
+-rw-r--r--  1 root    root     13K Aug 10 16:48 socialnetwork_social-graph-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:48 socialnetwork_social-graph-redis_1_logs.txt
+-rw-r--r--  1 root    root     637 Aug 10 16:48 socialnetwork_social-graph-service_1_logs.txt
+-rw-r--r--  1 root    root     100 Aug 10 16:48 socialnetwork_text-service_1_logs.txt
+-rw-r--r--  1 root    root     302 Aug 10 16:48 socialnetwork_unique-id-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:48 socialnetwork_url-shorten-memcached_1_logs.txt
+-rw-r--r--  1 root    root    9.8K Aug 10 16:48 socialnetwork_url-shorten-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     113 Aug 10 16:48 socialnetwork_url-shorten-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 16:48 socialnetwork_user-memcached_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 16:48 socialnetwork_user-mention-service_1_logs.txt
+-rw-r--r--  1 root    root    9.7K Aug 10 16:48 socialnetwork_user-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     285 Aug 10 16:48 socialnetwork_user-service_1_logs.txt
+-rw-r--r--  1 root    root     11K Aug 10 16:48 socialnetwork_user-timeline-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 16:48 socialnetwork_user-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 16:48 socialnetwork_user-timeline-service_1_logs.txt
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ sudo chmod 777 logsassemble.py logsassemble_epoch.py 
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ sudo ./logsassemble_epoch.py 
+./logsassemble_epoch.py: 1: import: not found
+./logsassemble_epoch.py: 2: import: not found
+./logsassemble_epoch.py: 3: import: not found
+from: can't read /var/mail/datetime
+./logsassemble_epoch.py: 7: Syntax error: "(" unexpected
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ python3 logsassemble_epoch.py 
+Welcome to the Log Processor!
+Enter the path of an input text file (or 'done' to finish): socialnetwork_compose-post-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_home-timeline-redis_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_home-timeline-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_jaeger-agent_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-frontend_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_nginx-thrift_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_post-storage-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_post-storage-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_post-storage-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_social-graph-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_social-graph-redis_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_social-graph-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_text-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_unique-id-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_url-shorten-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_url-shorten-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_url-shorten-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-mention-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-timeline-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-timeline-redis_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-timeline-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): done
+Enter the name of the output JSON file (e.g., logs.json): simultaniouspost^[[D^[[D         t.json
+Logs have been processed and saved to simultaniouspost.json
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ cd ../
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ls
+aug10output.txt  [0m[01;34mdatasets[0m                     docker-compose-tls.yml  [01;34mfigures[0m  [01;34mhelm-chart[0m       logs2.txt       [01;34mnginx-web-server[0m  [01;32msend_postrequests_sequentially.py[0m    social_network.thrift  [01;34mwrk2[0m
+[01;34mcmake[0m            [01;34mdocker[0m                       docker-compose.yml      [01;34mgen-cpp[0m  [01;34mkeys[0m             [01;32mlogscripter.sh[0m  [01;34mopenshift[0m         [01;32msend_postrequests_simultaneously.py[0m  [01;34msrc[0m
+CMakeLists.txt   docker-compose-sharding.yml  Dockerfile              [01;34mgen-lua[0m  [01;32mlogcollector.sh[0m  logs.txt        README.md         [01;32msendrequests_sequence.sh[0m             [01;34mtest[0m
+[01;34mconfig[0m           docker-compose-swarm.yml     Dockerfile-loader       [01;34mgen-py[0m   [34;42mlogs[0m             [01;34mmedia-frontend[0m  [01;34mscripts[0m           [01;32msendrequests.sh[0m                      [01;34mthird_party[0m
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker compose[K[K[K[K[K[K[K[K-compose down
+Stopping socialnetwork_user-timeline-service_1  ... 
+Stopping socialnetwork_url-shorten-service_1    ... 
+Stopping socialnetwork_social-graph-service_1   ... 
+Stopping socialnetwork_media-service_1          ... 
+Stopping socialnetwork_post-storage-service_1   ... 
+Stopping socialnetwork_user-service_1           ... 
+Stopping socialnetwork_nginx-thrift_1           ... 
+Stopping socialnetwork_home-timeline-service_1  ... 
+Stopping socialnetwork_unique-id-service_1      ... 
+Stopping socialnetwork_text-service_1           ... 
+Stopping socialnetwork_media-frontend_1         ... 
+Stopping socialnetwork_user-mention-service_1   ... 
+Stopping socialnetwork_compose-post-service_1   ... 
+Stopping socialnetwork_user-timeline-redis_1    ... 
+Stopping socialnetwork_media-mongodb_1          ... 
+Stopping socialnetwork_url-shorten-memcached_1  ... 
+Stopping socialnetwork_media-memcached_1        ... 
+Stopping socialnetwork_social-graph-mongodb_1   ... 
+Stopping socialnetwork_user-memcached_1         ... 
+Stopping socialnetwork_post-storage-mongodb_1   ... 
+Stopping socialnetwork_url-shorten-mongodb_1    ... 
+Stopping socialnetwork_user-timeline-mongodb_1  ... 
+Stopping socialnetwork_user-mongodb_1           ... 
+Stopping socialnetwork_social-graph-redis_1     ... 
+Stopping socialnetwork_home-timeline-redis_1    ... 
+Stopping socialnetwork_post-storage-memcached_1 ... 
+Stopping socialnetwork_jaeger-agent_1           ... 
+[4A[2KStopping socialnetwork_social-graph-redis_1     ... [32mdone[0m[4B[3A[2KStopping socialnetwork_home-timeline-redis_1    ... [32mdone[0m[3B[12A[2KStopping socialnetwork_url-shorten-memcached_1  ... [32mdone[0m[12B[2A[2KStopping socialnetwork_post-storage-memcached_1 ... [32mdone[0m[2B[9A[2KStopping socialnetwork_user-memcached_1         ... [32mdone[0m[9B[14A[2KStopping socialnetwork_user-timeline-redis_1    ... [32mdone[0m[14B[17A[2KStopping socialnetwork_media-frontend_1         ... [32mdone[0m[17B[11A[2KStopping socialnetwork_media-memcached_1        ... [32mdone[0m[11B[21A[2KStopping socialnetwork_nginx-thrift_1           ... [32mdone[0m[21B[24A[2KStopping socialnetwork_media-service_1          ... [32mdone[0m[24B[25A[2KStopping socialnetwork_social-graph-service_1   ... [32mdone[0m[25B[15A[2KStopping socialnetwork_compose-post-service_1   ... [32mdone[0m[15B[19A[2KStopping socialnetwork_unique-id-service_1      ... [32mdone[0m[19B[27A[2KStopping socialnetwork_user-timeline-service_1  ... [32mdone[0m[27B[16A[2KStopping socialnetwork_user-mention-service_1   ... [32mdone[0m[16B[20A[2KStopping socialnetwork_home-timeline-service_1  ... [32mdone[0m[20B[26A[2KStopping socialnetwork_url-shorten-service_1    ... [32mdone[0m[26B[23A[2KStopping socialnetwork_post-storage-service_1   ... [32mdone[0m[23B[22A[2KStopping socialnetwork_user-service_1           ... [32mdone[0m[22B[18A[2KStopping socialnetwork_text-service_1           ... [32mdone[0m[18B[13A[2KStopping socialnetwork_media-mongodb_1          ... [32mdone[0m[13B[10A[2KStopping socialnetwork_social-graph-mongodb_1   ... [32mdone[0m[10B[6A[2KStopping socialnetwork_user-timeline-mongodb_1  ... [32mdone[0m[6B[7A[2KStopping socialnetwork_url-shorten-mongodb_1    ... [32mdone[0m[7B[8A[2KStopping socialnetwork_post-storage-mongodb_1   ... [32mdone[0m[8B[1A[2KStopping socialnetwork_jaeger-agent_1           ... [32mdone[0m[1B[5A[2KStopping socialnetwork_user-mongodb_1           ... [32mdone[0m[5BRemoving socialnetwork_user-timeline-service_1  ... 
+Removing socialnetwork_url-shorten-service_1    ... 
+Removing socialnetwork_social-graph-service_1   ... 
+Removing socialnetwork_media-service_1          ... 
+Removing socialnetwork_post-storage-service_1   ... 
+Removing socialnetwork_user-service_1           ... 
+Removing socialnetwork_nginx-thrift_1           ... 
+Removing socialnetwork_home-timeline-service_1  ... 
+Removing socialnetwork_unique-id-service_1      ... 
+Removing socialnetwork_text-service_1           ... 
+Removing socialnetwork_media-frontend_1         ... 
+Removing socialnetwork_user-mention-service_1   ... 
+Removing socialnetwork_compose-post-service_1   ... 
+Removing socialnetwork_user-timeline-redis_1    ... 
+Removing socialnetwork_media-mongodb_1          ... 
+Removing socialnetwork_url-shorten-memcached_1  ... 
+Removing socialnetwork_media-memcached_1        ... 
+Removing socialnetwork_social-graph-mongodb_1   ... 
+Removing socialnetwork_user-memcached_1         ... 
+Removing socialnetwork_post-storage-mongodb_1   ... 
+Removing socialnetwork_url-shorten-mongodb_1    ... 
+Removing socialnetwork_user-timeline-mongodb_1  ... 
+Removing socialnetwork_user-mongodb_1           ... 
+Removing socialnetwork_social-graph-redis_1     ... 
+Removing socialnetwork_home-timeline-redis_1    ... 
+Removing socialnetwork_post-storage-memcached_1 ... 
+Removing socialnetwork_jaeger-agent_1           ... 
+[16A[2KRemoving socialnetwork_user-mention-service_1   ... [32mdone[0m[16B[19A[2KRemoving socialnetwork_unique-id-service_1      ... [32mdone[0m[19B[9A[2KRemoving socialnetwork_user-memcached_1         ... [32mdone[0m[9B[24A[2KRemoving socialnetwork_media-service_1          ... [32mdone[0m[24B[26A[2KRemoving socialnetwork_url-shorten-service_1    ... [32mdone[0m[26B[22A[2KRemoving socialnetwork_user-service_1           ... [32mdone[0m[22B[25A[2KRemoving socialnetwork_social-graph-service_1   ... [32mdone[0m[25B[5A[2KRemoving socialnetwork_user-mongodb_1           ... [32mdone[0m[5B[8A[2KRemoving socialnetwork_post-storage-mongodb_1   ... [32mdone[0m[8B[2A[2KRemoving socialnetwork_post-storage-memcached_1 ... [32mdone[0m[2B[3A[2KRemoving socialnetwork_home-timeline-redis_1    ... [32mdone[0m[3B[6A[2KRemoving socialnetwork_user-timeline-mongodb_1  ... [32mdone[0m[6B[18A[2KRemoving socialnetwork_text-service_1           ... [32mdone[0m[18B[1A[2KRemoving socialnetwork_jaeger-agent_1           ... [32mdone[0m[1B[14A[2KRemoving socialnetwork_user-timeline-redis_1    ... [32mdone[0m[14B[10A[2KRemoving socialnetwork_social-graph-mongodb_1   ... [32mdone[0m[10B[15A[2KRemoving socialnetwork_compose-post-service_1   ... [32mdone[0m[15B[21A[2KRemoving socialnetwork_nginx-thrift_1           ... [32mdone[0m[21B[20A[2KRemoving socialnetwork_home-timeline-service_1  ... [32mdone[0m[20B[27A[2KRemoving socialnetwork_user-timeline-service_1  ... [32mdone[0m[27B[11A[2KRemoving socialnetwork_media-memcached_1        ... [32mdone[0m[11B[4A[2KRemoving socialnetwork_social-graph-redis_1     ... [32mdone[0m[4B[17A[2KRemoving socialnetwork_media-frontend_1         ... [32mdone[0m[17B[23A[2KRemoving socialnetwork_post-storage-service_1   ... [32mdone[0m[23B[12A[2KRemoving socialnetwork_url-shorten-memcached_1  ... [32mdone[0m[12B[7A[2KRemoving socialnetwork_url-shorten-mongodb_1    ... [32mdone[0m[7B[13A[2KRemoving socialnetwork_media-mongodb_1          ... [32mdone[0m[13BRemoving network socialnetwork_default
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker network l
+
+Usage:  docker network COMMAND
+
+Manage networks
+
+Commands:
+  connect     Connect a container to a network
+  create      Create a network
+  disconnect  Disconnect a container from a network
+  inspect     Display detailed information on one or more networks
+  ls          List networks
+  prune       Remove all unused networks
+  rm          Remove one or more networks
+
+Run 'docker network COMMAND --help' for more information on a command.
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker network ls
+NETWORK ID     NAME      DRIVER    SCOPE
+5516d9e64923   bridge    bridge    local
+d88859585180   host      host      local
+889257aa07ec   none      null      local
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ sudo docker network ls[K[4Pps -a-compose down[K[K[K[Kup -d
+Creating network "socialnetwork_default" with the default driver
+Creating socialnetwork_user-timeline-mongodb_1 ... 
+Creating socialnetwork_media-memcached_1       ... 
+Creating socialnetwork_url-shorten-mongodb_1   ... 
+Creating socialnetwork_social-graph-redis_1    ... 
+Creating socialnetwork_url-shorten-memcached_1 ... 
+Creating socialnetwork_post-storage-mongodb_1  ... 
+Creating socialnetwork_social-graph-mongodb_1  ... 
+Creating socialnetwork_user-memcached_1        ... 
+Creating socialnetwork_home-timeline-redis_1   ... 
+Creating socialnetwork_jaeger-agent_1          ... 
+Creating socialnetwork_user-timeline-redis_1   ... 
+Creating socialnetwork_user-mongodb_1          ... 
+Creating socialnetwork_media-mongodb_1         ... 
+Creating socialnetwork_post-storage-memcached_1 ... 
+[12A[2KCreating socialnetwork_url-shorten-mongodb_1    ... [32mdone[0m[12B[10A[2KCreating socialnetwork_url-shorten-memcached_1  ... [32mdone[0m[10B[14A[2KCreating socialnetwork_user-timeline-mongodb_1  ... [32mdone[0m[14B[13A[2KCreating socialnetwork_media-memcached_1        ... [32mdone[0m[13B[11A[2KCreating socialnetwork_social-graph-redis_1     ... [32mdone[0m[11B[9A[2KCreating socialnetwork_post-storage-mongodb_1   ... [32mdone[0m[9B[4A[2KCreating socialnetwork_user-timeline-redis_1    ... [32mdone[0m[4B[7A[2KCreating socialnetwork_user-memcached_1         ... [32mdone[0m[7B[8A[2KCreating socialnetwork_social-graph-mongodb_1   ... [32mdone[0m[8B[2A[2KCreating socialnetwork_media-mongodb_1          ... [32mdone[0m[2B[3A[2KCreating socialnetwork_user-mongodb_1           ... [32mdone[0m[3B[6A[2KCreating socialnetwork_home-timeline-redis_1    ... [32mdone[0m[6B[5A[2KCreating socialnetwork_jaeger-agent_1           ... [32mdone[0m[5B[1A[2KCreating socialnetwork_post-storage-memcached_1 ... [32mdone[0m[1BCreating socialnetwork_media-frontend_1         ... 
+Creating socialnetwork_user-timeline-service_1  ... 
+Creating socialnetwork_unique-id-service_1      ... 
+Creating socialnetwork_nginx-thrift_1           ... 
+Creating socialnetwork_text-service_1           ... 
+Creating socialnetwork_media-service_1          ... 
+Creating socialnetwork_social-graph-service_1   ... 
+Creating socialnetwork_user-mention-service_1   ... 
+Creating socialnetwork_user-service_1           ... 
+Creating socialnetwork_compose-post-service_1   ... 
+Creating socialnetwork_post-storage-service_1   ... 
+Creating socialnetwork_home-timeline-service_1  ... 
+Creating socialnetwork_url-shorten-service_1    ... 
+[12A[2KCreating socialnetwork_user-timeline-service_1  ... [32mdone[0m[12B[11A[2KCreating socialnetwork_unique-id-service_1      ... [32mdone[0m[11B[9A[2KCreating socialnetwork_text-service_1           ... [32mdone[0m[9B[13A[2KCreating socialnetwork_media-frontend_1         ... [32mdone[0m[13B[8A[2KCreating socialnetwork_media-service_1          ... [32mdone[0m[8B[10A[2KCreating socialnetwork_nginx-thrift_1           ... [32mdone[0m[10B[7A[2KCreating socialnetwork_social-graph-service_1   ... [32mdone[0m[7B[6A[2KCreating socialnetwork_user-mention-service_1   ... [32mdone[0m[6B[3A[2KCreating socialnetwork_post-storage-service_1   ... [32mdone[0m[3B[1A[2KCreating socialnetwork_url-shorten-service_1    ... [32mdone[0m[1B[4A[2KCreating socialnetwork_compose-post-service_1   ... [32mdone[0m[4B[2A[2KCreating socialnetwork_home-timeline-service_1  ... [32mdone[0m[2B[5A[2KCreating socialnetwork_user-service_1           ... [32mdone[0m[5B]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ls
+aug10output.txt  [0m[01;34mdatasets[0m                     docker-compose-tls.yml  [01;34mfigures[0m  [01;34mhelm-chart[0m       logs2.txt       [01;34mnginx-web-server[0m  [01;32msend_postrequests_sequentially.py[0m    social_network.thrift  [01;34mwrk2[0m
+[01;34mcmake[0m            [01;34mdocker[0m                       docker-compose.yml      [01;34mgen-cpp[0m  [01;34mkeys[0m             [01;32mlogscripter.sh[0m  [01;34mopenshift[0m         [01;32msend_postrequests_simultaneously.py[0m  [01;34msrc[0m
+CMakeLists.txt   docker-compose-sharding.yml  Dockerfile              [01;34mgen-lua[0m  [01;32mlogcollector.sh[0m  logs.txt        README.md         [01;32msendrequests_sequence.sh[0m             [01;34mtest[0m
+[01;34mconfig[0m           docker-compose-swarm.yml     Dockerfile-loader       [01;34mgen-py[0m   [34;42mlogs[0m             [01;34mmedia-frontend[0m  [01;34mscripts[0m           [01;32msendrequests.sh[0m                      [01;34mthird_party[0m
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ./send
+send_postrequests_sequentially.py    send_postrequests_simultaneously.py  sendrequests_sequence.sh             sendrequests.sh                      
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ./sends./sendu./sendd./sendo./send ./send[C[C[C[C[C[C_postrequests_simultaneously.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kequentially.py 
+Successfully upload post
+Request 1 sent.
+Successfully upload post
+Request 2 sent.
+Successfully upload post
+Request 3 sent.
+Successfully upload post
+Request 4 sent.
+Successfully upload post
+Request 5 sent.
+5  requests have been sent.
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ s[Kcd logs/[K[K[K[K[K[K[K[K./logcollector.sh [1@s[1@u[1@d[1@o[1@ 
+Logs for socialnetwork_url-shorten-service_1 saved to ./logs/socialnetwork_url-shorten-service_1_logs.txt
+Logs for socialnetwork_user-mention-service_1 saved to ./logs/socialnetwork_user-mention-service_1_logs.txt
+Logs for socialnetwork_post-storage-service_1 saved to ./logs/socialnetwork_post-storage-service_1_logs.txt
+Logs for socialnetwork_home-timeline-service_1 saved to ./logs/socialnetwork_home-timeline-service_1_logs.txt
+Logs for socialnetwork_compose-post-service_1 saved to ./logs/socialnetwork_compose-post-service_1_logs.txt
+Logs for socialnetwork_social-graph-service_1 saved to ./logs/socialnetwork_social-graph-service_1_logs.txt
+Logs for socialnetwork_user-service_1 saved to ./logs/socialnetwork_user-service_1_logs.txt
+Logs for socialnetwork_nginx-thrift_1 saved to ./logs/socialnetwork_nginx-thrift_1_logs.txt
+Logs for socialnetwork_media-service_1 saved to ./logs/socialnetwork_media-service_1_logs.txt
+Logs for socialnetwork_text-service_1 saved to ./logs/socialnetwork_text-service_1_logs.txt
+Logs for socialnetwork_unique-id-service_1 saved to ./logs/socialnetwork_unique-id-service_1_logs.txt
+Logs for socialnetwork_user-timeline-service_1 saved to ./logs/socialnetwork_user-timeline-service_1_logs.txt
+Logs for socialnetwork_media-frontend_1 saved to ./logs/socialnetwork_media-frontend_1_logs.txt
+Logs for socialnetwork_user-mongodb_1 saved to ./logs/socialnetwork_user-mongodb_1_logs.txt
+Logs for socialnetwork_post-storage-memcached_1 saved to ./logs/socialnetwork_post-storage-memcached_1_logs.txt
+Logs for socialnetwork_media-mongodb_1 saved to ./logs/socialnetwork_media-mongodb_1_logs.txt
+Logs for socialnetwork_user-timeline-redis_1 saved to ./logs/socialnetwork_user-timeline-redis_1_logs.txt
+Logs for socialnetwork_jaeger-agent_1 saved to ./logs/socialnetwork_jaeger-agent_1_logs.txt
+Logs for socialnetwork_home-timeline-redis_1 saved to ./logs/socialnetwork_home-timeline-redis_1_logs.txt
+Logs for socialnetwork_user-memcached_1 saved to ./logs/socialnetwork_user-memcached_1_logs.txt
+Logs for socialnetwork_post-storage-mongodb_1 saved to ./logs/socialnetwork_post-storage-mongodb_1_logs.txt
+Logs for socialnetwork_social-graph-mongodb_1 saved to ./logs/socialnetwork_social-graph-mongodb_1_logs.txt
+Logs for socialnetwork_social-graph-redis_1 saved to ./logs/socialnetwork_social-graph-redis_1_logs.txt
+Logs for socialnetwork_url-shorten-memcached_1 saved to ./logs/socialnetwork_url-shorten-memcached_1_logs.txt
+Logs for socialnetwork_media-memcached_1 saved to ./logs/socialnetwork_media-memcached_1_logs.txt
+Logs for socialnetwork_user-timeline-mongodb_1 saved to ./logs/socialnetwork_user-timeline-mongodb_1_logs.txt
+Logs for socialnetwork_url-shorten-mongodb_1 saved to ./logs/socialnetwork_url-shorten-mongodb_1_logs.txt
+ *************Log collection completed************* 
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork[00m$ ls[K[Kcd logs/
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ l -hl -h
+total 328K
+drwxrwxrwx  2 dsbench dsbench 4.0K Aug 10 16:57 [0m[34;42m.[0m/
+drwxrwxr-x 21 dsbench dsbench 4.0K Aug 10 16:45 [01;34m..[0m/
+-rw-rw-r--  1 dsbench dsbench  42K Aug 10 16:26 example_logassemble.json
+-rw-rw-r--  1 dsbench dsbench  20K Aug 10 16:26 example_logsassemble_epoch.json
+-rwxrwxrwx  1 dsbench dsbench 2.3K Aug 10 16:26 [01;32mlogsassemble_epoch.py[0m*
+-rwxrwxrwx  1 dsbench dsbench 2.2K Aug 10 16:26 [01;32mlogsassemble.py[0m*
+-rw-rw-r--  1 dsbench dsbench 105K Aug 10 16:57 simultaniouspost.json
+-rw-r--r--  1 root    root     117 Aug 10 17:00 socialnetwork_compose-post-service_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 17:00 socialnetwork_home-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 17:00 socialnetwork_home-timeline-service_1_logs.txt
+-rw-r--r--  1 root    root     12K Aug 10 17:00 socialnetwork_jaeger-agent_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 17:00 socialnetwork_media-frontend_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 17:00 socialnetwork_media-memcached_1_logs.txt
+-rw-r--r--  1 root    root    8.4K Aug 10 17:00 socialnetwork_media-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     102 Aug 10 17:00 socialnetwork_media-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 17:00 socialnetwork_nginx-thrift_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 17:00 socialnetwork_post-storage-memcached_1_logs.txt
+-rw-r--r--  1 root    root     11K Aug 10 17:00 socialnetwork_post-storage-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 17:00 socialnetwork_post-storage-service_1_logs.txt
+-rw-r--r--  1 root    root    9.8K Aug 10 17:00 socialnetwork_social-graph-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 17:00 socialnetwork_social-graph-redis_1_logs.txt
+-rw-r--r--  1 root    root     637 Aug 10 17:00 socialnetwork_social-graph-service_1_logs.txt
+-rw-r--r--  1 root    root     100 Aug 10 17:00 socialnetwork_text-service_1_logs.txt
+-rw-r--r--  1 root    root     302 Aug 10 17:00 socialnetwork_unique-id-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 17:00 socialnetwork_url-shorten-memcached_1_logs.txt
+-rw-r--r--  1 root    root    9.8K Aug 10 17:00 socialnetwork_url-shorten-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     113 Aug 10 17:00 socialnetwork_url-shorten-service_1_logs.txt
+-rw-r--r--  1 root    root       0 Aug 10 17:00 socialnetwork_user-memcached_1_logs.txt
+-rw-r--r--  1 root    root     115 Aug 10 17:00 socialnetwork_user-mention-service_1_logs.txt
+-rw-r--r--  1 root    root    9.7K Aug 10 17:00 socialnetwork_user-mongodb_1_logs.txt
+-rw-r--r--  1 root    root     285 Aug 10 17:00 socialnetwork_user-service_1_logs.txt
+-rw-r--r--  1 root    root    9.8K Aug 10 17:00 socialnetwork_user-timeline-mongodb_1_logs.txt
+-rw-r--r--  1 root    root    1.1K Aug 10 17:00 socialnetwork_user-timeline-redis_1_logs.txt
+-rw-r--r--  1 root    root     118 Aug 10 17:00 socialnetwork_user-timeline-service_1_logs.txt
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ python3 logsassemble_epoch.py 
+Welcome to the Log Processor!
+Enter the path of an input text file (or 'done' to finish): socialnetwork_compose-post-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_home-timeline-redis_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_home-timeline-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_jaeger-agent_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-frontend_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_media-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_nginx-thrift_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_post-storage-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_post-storage-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_post-storage-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_social-graph-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_social-graph-redis_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_social-graph-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_text-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_unique-id-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_url-shorten-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_url-shorten-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_url-shorten-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-memcached_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-mention-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-timeline-mongodb_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-timeline-redis_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): socialnetwork_user-timeline-service_1_logs.txt
+Enter the path of an input text file (or 'done' to finish): done
+Enter the name of the output JSON file (e.g., logs.json): sequentalpost.json
+Logs have been processed and saved to sequentalpost.json
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ ls
+example_logassemble.json                        socialnetwork_jaeger-agent_1_logs.txt            socialnetwork_social-graph-mongodb_1_logs.txt   socialnetwork_user-mention-service_1_logs.txt
+example_logsassemble_epoch.json                 socialnetwork_media-frontend_1_logs.txt          socialnetwork_social-graph-redis_1_logs.txt     socialnetwork_user-mongodb_1_logs.txt
+[0m[01;32mlogsassemble_epoch.py[0m                           socialnetwork_media-memcached_1_logs.txt         socialnetwork_social-graph-service_1_logs.txt   socialnetwork_user-service_1_logs.txt
+[01;32mlogsassemble.py[0m                                 socialnetwork_media-mongodb_1_logs.txt           socialnetwork_text-service_1_logs.txt           socialnetwork_user-timeline-mongodb_1_logs.txt
+sequentalpost.json                              socialnetwork_media-service_1_logs.txt           socialnetwork_unique-id-service_1_logs.txt      socialnetwork_user-timeline-redis_1_logs.txt
+simultaniouspost.json                           socialnetwork_nginx-thrift_1_logs.txt            socialnetwork_url-shorten-memcached_1_logs.txt  socialnetwork_user-timeline-service_1_logs.txt
+socialnetwork_compose-post-service_1_logs.txt   socialnetwork_post-storage-memcached_1_logs.txt  socialnetwork_url-shorten-mongodb_1_logs.txt
+socialnetwork_home-timeline-redis_1_logs.txt    socialnetwork_post-storage-mongodb_1_logs.txt    socialnetwork_url-shorten-service_1_logs.txt
+socialnetwork_home-timeline-service_1_logs.txt  socialnetwork_post-storage-service_1_logs.txt    socialnetwork_user-memcached_1_logs.txt
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ ^C
+]0;dsbench@deathstarbench: ~/DeathStarBench/socialNetwork/logs[01;32mdsbench@deathstarbench[00m:[01;34m~/DeathStarBench/socialNetwork/logs[00m$ exit
+
+Script done on 2023-08-10 17:05:42+05:30 [COMMAND_EXIT_CODE="130"]

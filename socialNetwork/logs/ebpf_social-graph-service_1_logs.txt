@@ -1,0 +1,13 @@
+[2023-Aug-19 05:53:35.147940] <info>: (SocialGraphService.cpp:143:main) Starting the social-graph-service server ...
+[2023-Aug-19 06:03:19.510567] <warning>: (SocialGraphHandler.h:612:GetFollowers) user_id: 123 not found
+[2023-Aug-19 06:03:35.713369] <warning>: (SocialGraphHandler.h:612:GetFollowers) user_id: 123 not found
+[2023-Aug-19 06:05:25.740927] <error>: (SocialGraphHandler.h:852:operator()) Failed to get user_id from user-service
+[2023-Aug-19 06:05:25.741782] <warning>: (SocialGraphHandler.h:888:FollowWithUsername) TException - service has thrown: ServiceException(errorCode=SE_THRIFT_HANDLER_ERROR, message=User: null is not registered)
+[2023-Aug-19 06:05:32.772452] <error>: (SocialGraphHandler.h:852:operator()) Failed to get user_id from user-service
+[2023-Aug-19 06:05:32.772885] <warning>: (SocialGraphHandler.h:888:FollowWithUsername) TException - service has thrown: ServiceException(errorCode=SE_THRIFT_HANDLER_ERROR, message=User: null is not registered)
+[2023-Aug-19 06:06:30.550047] <error>: (SocialGraphHandler.h:852:operator()) Failed to get user_id from user-service
+[2023-Aug-19 06:06:30.550308] <warning>: (SocialGraphHandler.h:888:FollowWithUsername) TException - service has thrown: ServiceException(errorCode=SE_THRIFT_HANDLER_ERROR, message=User: null is not registered)
+[2023-Aug-19 06:13:22.129909] <warning>: (SocialGraphHandler.h:612:GetFollowers) user_id: 123 not found
+[2023-Aug-19 06:13:24.278419] <warning>: (SocialGraphHandler.h:612:GetFollowers) user_id: 123 not found
+[2023-Aug-19 06:13:25.266011] <warning>: (SocialGraphHandler.h:612:GetFollowers) user_id: 123 not found
+[2023-Aug-19 06:15:52.999133] <warning>: (SocialGraphHandler.h:612:GetFollowers) user_id: 123 not found

@@ -1,0 +1,45 @@
+[2023-Aug-22 06:15:48.367074] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-22 06:19:45.487469] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-22 06:21:09.538774] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-22 06:21:09.539009] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-22 06:23:43.184634] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-22 06:23:50.329479] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-22 06:23:50.329630] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-22 06:23:50.329691] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-22 06:23:50.329943] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 09:29:43.394053] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-23 09:29:47.391363] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 09:29:47.391602] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 09:40:20.968173] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-23 09:44:37.852917] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 09:44:37.853220] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 09:46:53.869426] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 09:46:53.869598] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 09:47:11.695111] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 09:47:11.695350] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 09:50:03.742541] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 09:50:03.742869] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:40:08.141143] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-23 11:40:57.893663] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-23 11:41:18.039451] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:41:18.039717] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:22.686114] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
+[2023-Aug-23 11:42:30.116998] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:30.117602] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:30.843919] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:30.844060] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:31.343663] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:31.343776] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:31.759603] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:31.759748] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:32.171529] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:32.171832] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:32.592514] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:32.592678] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:33.044919] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:33.045058] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:33.511805] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:33.511915] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-23 11:42:33.949880] <info>: (UserMentionHandler.h:44:ComposeUserMentions) Request to COMPOSE USER MENTIONS received
+[2023-Aug-23 11:42:33.950035] <info>: (UserMentionHandler.h:232:ComposeUserMentions) Request to COMPOSE USER MENTIONS finished
+[2023-Aug-24 07:05:14.938051] <info>: (UserMentionService.cpp:68:main) Starting the user-mention-service server...
