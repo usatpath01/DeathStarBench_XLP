@@ -1,0 +1,522 @@
+[
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.291+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":23285,   \"ctx\":\"main\",\"msg\":\"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'\"}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.294+00:00\"},\"s\":\"W\",  \"c\":\"ASIO\",     \"id\":22601,   \"ctx\":\"main\",\"msg\":\"No TransportLayer configured during NetworkInterface startup\"}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.294+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":4648601, \"ctx\":\"main\",\"msg\":\"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize.\"}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.294+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":4615611, \"ctx\":\"initandlisten\",\"msg\":\"MongoDB starting\",\"attr\":{\"pid\":1,\"port\":27017,\"dbPath\":\"/data/db\",\"architecture\":\"64-bit\",\"host\":\"media-mongodb\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.294+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":23403,   \"ctx\":\"initandlisten\",\"msg\":\"Build Info\",\"attr\":{\"buildInfo\":{\"version\":\"4.4.6\",\"gitVersion\":\"72e66213c2c3eab37d9358d5e78ad7f5c1d0d0d7\",\"openSSLVersion\":\"OpenSSL 1.1.1  11 Sep 2018\",\"modules\":[],\"allocator\":\"tcmalloc\",\"environment\":{\"distmod\":\"ubuntu1804\",\"distarch\":\"x86_64\",\"target_arch\":\"x86_64\"}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.294+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":51765,   \"ctx\":\"initandlisten\",\"msg\":\"Operating System\",\"attr\":{\"os\":{\"name\":\"Ubuntu\",\"version\":\"18.04\"}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.294+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":21951,   \"ctx\":\"initandlisten\",\"msg\":\"Options set by command line\",\"attr\":{\"options\":{\"net\":{\"bindIp\":\"*\"}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.295+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22297,   \"ctx\":\"initandlisten\",\"msg\":\"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem\",\"tags\":[\"startupWarnings\"]}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.295+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22315,   \"ctx\":\"initandlisten\",\"msg\":\"Opening WiredTiger\",\"attr\":{\"config\":\"create,cache_size=3477M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress,compact_progress],\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.647+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561795:647778][1:0x7f02d5af2ac0], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Set global recovery timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.647+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561795:647911][1:0x7f02d5af2ac0], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Set global oldest timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.656+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":4795906, \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger opened\",\"attr\":{\"durationMillis\":361}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.656+00:00\"},\"s\":\"I\",  \"c\":\"RECOVERY\", \"id\":23987,   \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger recoveryTimestamp\",\"attr\":{\"recoveryTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.685+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":4366408, \"ctx\":\"initandlisten\",\"msg\":\"No table logging settings modifications are required for existing WiredTiger tables\",\"attr\":{\"loggingEnabled\":true}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.685+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22262,   \"ctx\":\"initandlisten\",\"msg\":\"Timestamp monitor starting\"}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.691+00:00\"},\"s\":\"W\",  \"c\":\"CONTROL\",  \"id\":22120,   \"ctx\":\"initandlisten\",\"msg\":\"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted\",\"tags\":[\"startupWarnings\"]}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.692+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"initandlisten\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"admin.system.version\",\"uuidDisposition\":\"provided\",\"uuid\":{\"uuid\":{\"$uuid\":\"a4d8050c-1d8c-44ca-8e70-13862ddd0392\"}},\"options\":{\"uuid\":{\"$uuid\":\"a4d8050c-1d8c-44ca-8e70-13862ddd0392\"}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.703+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"initandlisten\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"admin.system.version\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.704+00:00\"},\"s\":\"I\",  \"c\":\"COMMAND\",  \"id\":20459,   \"ctx\":\"initandlisten\",\"msg\":\"Setting featureCompatibilityVersion\",\"attr\":{\"newVersion\":\"4.4\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.704+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20536,   \"ctx\":\"initandlisten\",\"msg\":\"Flow Control is enabled on this deployment\"}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.705+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"initandlisten\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"local.startup_log\",\"uuidDisposition\":\"generated\",\"uuid\":{\"uuid\":{\"$uuid\":\"a8677807-8885-498e-a738-c7cb5488db19\"}},\"options\":{\"capped\":true,\"size\":10485760}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.724+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"initandlisten\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"local.startup_log\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.724+00:00\"},\"s\":\"I\",  \"c\":\"FTDC\",     \"id\":20625,   \"ctx\":\"initandlisten\",\"msg\":\"Initializing full-time diagnostic data capture\",\"attr\":{\"dataDirectory\":\"/data/db/diagnostic.data\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.727+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"LogicalSessionCacheRefresh\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"config.system.sessions\",\"uuidDisposition\":\"generated\",\"uuid\":{\"uuid\":{\"$uuid\":\"7e5496df-a522-4fbd-b0a6-415f4bb377d8\"}},\"options\":{}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.733+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":20712,   \"ctx\":\"LogicalSessionCacheReap\",\"msg\":\"Sessions collection is not set up; waiting until next sessions reap interval\",\"attr\":{\"error\":\"NamespaceNotFound: config.system.sessions does not exist\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.734+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":23015,   \"ctx\":\"listener\",\"msg\":\"Listening on\",\"attr\":{\"address\":\"/tmp/mongodb-27017.sock\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.734+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":23015,   \"ctx\":\"listener\",\"msg\":\"Listening on\",\"attr\":{\"address\":\"0.0.0.0\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.734+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":23016,   \"ctx\":\"listener\",\"msg\":\"Waiting for connections\",\"attr\":{\"port\":27017,\"ssl\":\"off\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.764+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"LogicalSessionCacheRefresh\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"config.system.sessions\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:35.764+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"LogicalSessionCacheRefresh\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"config.system.sessions\",\"index\":\"lsidTTLIndex\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:C 09 Aug 2023 06:16:37.432 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:C 09 Aug 2023 06:16:37.432 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=1, just started",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:C 09 Aug 2023 06:16:37.432 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.432 * monotonic clock: POSIX clock_gettime",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.433 * Running mode=standalone, port=6379.",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.433 # Server initialized",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.433 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.434 * Ready to accept connections",
+        "file": "socialnetwork_home-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.870+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":23285,   \"ctx\":\"main\",\"msg\":\"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'\"}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.875+00:00\"},\"s\":\"W\",  \"c\":\"ASIO\",     \"id\":22601,   \"ctx\":\"main\",\"msg\":\"No TransportLayer configured during NetworkInterface startup\"}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.875+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":4648601, \"ctx\":\"main\",\"msg\":\"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize.\"}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.876+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":4615611, \"ctx\":\"initandlisten\",\"msg\":\"MongoDB starting\",\"attr\":{\"pid\":1,\"port\":27017,\"dbPath\":\"/data/db\",\"architecture\":\"64-bit\",\"host\":\"post-storage-mongodb\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.876+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":23403,   \"ctx\":\"initandlisten\",\"msg\":\"Build Info\",\"attr\":{\"buildInfo\":{\"version\":\"4.4.6\",\"gitVersion\":\"72e66213c2c3eab37d9358d5e78ad7f5c1d0d0d7\",\"openSSLVersion\":\"OpenSSL 1.1.1  11 Sep 2018\",\"modules\":[],\"allocator\":\"tcmalloc\",\"environment\":{\"distmod\":\"ubuntu1804\",\"distarch\":\"x86_64\",\"target_arch\":\"x86_64\"}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.876+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":51765,   \"ctx\":\"initandlisten\",\"msg\":\"Operating System\",\"attr\":{\"os\":{\"name\":\"Ubuntu\",\"version\":\"18.04\"}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.876+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":21951,   \"ctx\":\"initandlisten\",\"msg\":\"Options set by command line\",\"attr\":{\"options\":{\"net\":{\"bindIp\":\"*\"}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.887+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22297,   \"ctx\":\"initandlisten\",\"msg\":\"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem\",\"tags\":[\"startupWarnings\"]}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:37.887+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22315,   \"ctx\":\"initandlisten\",\"msg\":\"Opening WiredTiger\",\"attr\":{\"config\":\"create,cache_size=3477M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress,compact_progress],\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:C 09 Aug 2023 06:16:37.164 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:C 09 Aug 2023 06:16:37.164 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=1, just started",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:C 09 Aug 2023 06:16:37.164 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.165 * monotonic clock: POSIX clock_gettime",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.166 * Running mode=standalone, port=6379.",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.166 # Server initialized",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.166 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:37",
+        "log": "1:M 09 Aug 2023 06:16:37.166 * Ready to accept connections",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.325+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561798:325305][1:0x7fae2f7c4ac0], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Set global recovery timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.325+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561798:325442][1:0x7fae2f7c4ac0], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Set global oldest timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.333+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":4795906, \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger opened\",\"attr\":{\"durationMillis\":446}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.333+00:00\"},\"s\":\"I\",  \"c\":\"RECOVERY\", \"id\":23987,   \"ctx\":\"initandlisten\",\"msg\":\"WiredTiger recoveryTimestamp\",\"attr\":{\"recoveryTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.372+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":4366408, \"ctx\":\"initandlisten\",\"msg\":\"No table logging settings modifications are required for existing WiredTiger tables\",\"attr\":{\"loggingEnabled\":true}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.372+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22262,   \"ctx\":\"initandlisten\",\"msg\":\"Timestamp monitor starting\"}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.404+00:00\"},\"s\":\"W\",  \"c\":\"CONTROL\",  \"id\":22120,   \"ctx\":\"initandlisten\",\"msg\":\"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted\",\"tags\":[\"startupWarnings\"]}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.405+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"initandlisten\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"admin.system.version\",\"uuidDisposition\":\"provided\",\"uuid\":{\"uuid\":{\"$uuid\":\"46cd82db-786b-4aad-997c-7518527aee6f\"}},\"options\":{\"uuid\":{\"$uuid\":\"46cd82db-786b-4aad-997c-7518527aee6f\"}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.421+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"initandlisten\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"admin.system.version\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.421+00:00\"},\"s\":\"I\",  \"c\":\"COMMAND\",  \"id\":20459,   \"ctx\":\"initandlisten\",\"msg\":\"Setting featureCompatibilityVersion\",\"attr\":{\"newVersion\":\"4.4\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.422+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20536,   \"ctx\":\"initandlisten\",\"msg\":\"Flow Control is enabled on this deployment\"}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.423+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"initandlisten\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"local.startup_log\",\"uuidDisposition\":\"generated\",\"uuid\":{\"uuid\":{\"$uuid\":\"b7994d98-2a53-435e-920c-fb50e0931384\"}},\"options\":{\"capped\":true,\"size\":10485760}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.448+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"initandlisten\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"local.startup_log\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.448+00:00\"},\"s\":\"I\",  \"c\":\"FTDC\",     \"id\":20625,   \"ctx\":\"initandlisten\",\"msg\":\"Initializing full-time diagnostic data capture\",\"attr\":{\"dataDirectory\":\"/data/db/diagnostic.data\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.454+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"LogicalSessionCacheRefresh\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"config.system.sessions\",\"uuidDisposition\":\"generated\",\"uuid\":{\"uuid\":{\"$uuid\":\"6252678f-380f-46a6-a4ce-8736034bd24d\"}},\"options\":{}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.465+00:00\"},\"s\":\"I\",  \"c\":\"CONTROL\",  \"id\":20712,   \"ctx\":\"LogicalSessionCacheReap\",\"msg\":\"Sessions collection is not set up; waiting until next sessions reap interval\",\"attr\":{\"error\":\"NamespaceNotFound: config.system.sessions does not exist\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.466+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":23015,   \"ctx\":\"listener\",\"msg\":\"Listening on\",\"attr\":{\"address\":\"/tmp/mongodb-27017.sock\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.466+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":23015,   \"ctx\":\"listener\",\"msg\":\"Listening on\",\"attr\":{\"address\":\"0.0.0.0\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.466+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":23016,   \"ctx\":\"listener\",\"msg\":\"Waiting for connections\",\"attr\":{\"port\":27017,\"ssl\":\"off\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.493+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"LogicalSessionCacheRefresh\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"config.system.sessions\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:38.493+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"LogicalSessionCacheRefresh\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"config.system.sessions\",\"index\":\"lsidTTLIndex\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.129+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":22943,   \"ctx\":\"listener\",\"msg\":\"Connection accepted\",\"attr\":{\"remote\":\"172.21.0.27:60630\",\"connectionId\":1,\"connectionCount\":1}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.130+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":51800,   \"ctx\":\"conn1\",\"msg\":\"client metadata\",\"attr\":{\"remote\":\"172.21.0.27:60630\",\"client\":\"conn1\",\"doc\":{\"application\":{\"name\":\"post-storage-service\"},\"driver\":{\"name\":\"mongoc\",\"version\":\"1.15.0\"},\"os\":{\"type\":\"Linux\",\"name\":\"Ubuntu\",\"version\":\"16.04\",\"architecture\":\"x86_64\"},\"platform\":\"cfg=0x215680e9 posix=200809 stdc=201112 CC=GCC 5.4.0 20160609 CFLAGS=\\\"\\\" LDFLAGS=\\\"\\\"\"}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.131+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":22943,   \"ctx\":\"listener\",\"msg\":\"Connection accepted\",\"attr\":{\"remote\":\"172.21.0.27:60646\",\"connectionId\":2,\"connectionCount\":2}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.131+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":51800,   \"ctx\":\"conn2\",\"msg\":\"client metadata\",\"attr\":{\"remote\":\"172.21.0.27:60646\",\"client\":\"conn2\",\"doc\":{\"application\":{\"name\":\"post-storage-service\"},\"driver\":{\"name\":\"mongoc\",\"version\":\"1.15.0\"},\"os\":{\"type\":\"Linux\",\"name\":\"Ubuntu\",\"version\":\"16.04\",\"architecture\":\"x86_64\"},\"platform\":\"cfg=0x215680e9 posix=200809 stdc=201112 CC=GCC 5.4.0 20160609 CFLAGS=\\\"\\\" LDFLAGS=\\\"\\\"\"}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.132+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":20320,   \"ctx\":\"conn2\",\"msg\":\"createCollection\",\"attr\":{\"namespace\":\"post.post\",\"uuidDisposition\":\"generated\",\"uuid\":{\"uuid\":{\"$uuid\":\"3d62c38a-166b-4753-ae04-015a4a08289b\"}},\"options\":{}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.154+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"conn2\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"post.post\",\"index\":\"_id_\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:16:40",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:16:40.154+00:00\"},\"s\":\"I\",  \"c\":\"INDEX\",    \"id\":20345,   \"ctx\":\"conn2\",\"msg\":\"Index build: done building\",\"attr\":{\"buildUUID\":null,\"namespace\":\"post.post\",\"index\":\"post_id_1\",\"commitTimestamp\":{\"$timestamp\":{\"t\":0,\"i\":0}}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:17:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:17:35.688+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561855:688300][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 34, snapshot max: 34 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:17:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:17:38.379+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561858:379833][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 44, snapshot max: 44 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:18:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:18:35.704+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561915:704907][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 36, snapshot max: 36 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:18:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:18:38.396+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561918:396861][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 46, snapshot max: 46 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:19:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:19:35.721+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561975:721403][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 37, snapshot max: 37 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:19:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:19:38.406+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691561978:406819][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 47, snapshot max: 47 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:20:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:20:35.728+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562035:728436][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 38, snapshot max: 38 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:20:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:20:38.419+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562038:419429][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 48, snapshot max: 48 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:21:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:21:35.736+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562095:736586][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 39, snapshot max: 39 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:21:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:21:38.428+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562098:428193][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 49, snapshot max: 49 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:22:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:22:35.755+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562155:754998][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 40, snapshot max: 40 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:22:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:22:38.471+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562158:471400][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 51, snapshot max: 51 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:22:58",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:22:58.427+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":22943,   \"ctx\":\"listener\",\"msg\":\"Connection accepted\",\"attr\":{\"remote\":\"172.21.0.27:50030\",\"connectionId\":3,\"connectionCount\":3}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:22:58",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:22:58.427+00:00\"},\"s\":\"I\",  \"c\":\"NETWORK\",  \"id\":51800,   \"ctx\":\"conn3\",\"msg\":\"client metadata\",\"attr\":{\"remote\":\"172.21.0.27:50030\",\"client\":\"conn3\",\"doc\":{\"application\":{\"name\":\"post-storage-service\"},\"driver\":{\"name\":\"mongoc\",\"version\":\"1.15.0\"},\"os\":{\"type\":\"Linux\",\"name\":\"Ubuntu\",\"version\":\"16.04\",\"architecture\":\"x86_64\"},\"platform\":\"cfg=0x215680e9 posix=200809 stdc=201112 CC=GCC 5.4.0 20160609 CFLAGS=\\\"\\\" LDFLAGS=\\\"\\\"\"}}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:03",
+        "log": "1:M 09 Aug 2023 06:23:03.351 * 100 changes in 300 seconds. Saving...",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:03",
+        "log": "1:M 09 Aug 2023 06:23:03.352 * Background saving started by pid 18",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:03",
+        "log": "18:C 09 Aug 2023 06:23:03.357 * DB saved on disk",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:03",
+        "log": "18:C 09 Aug 2023 06:23:03.357 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:03",
+        "log": "1:M 09 Aug 2023 06:23:03.452 * Background saving terminated with success",
+        "file": "socialnetwork_user-timeline-redis_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:35",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:23:35.763+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562215:763914][1:0x7f02c85dc700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 41, snapshot max: 41 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_media-mongodb_1_logs.txt"
+    },
+    {
+        "timestamp": "2023-08-09 06:23:38",
+        "log": "{\"t\":{\"$date\":\"2023-08-09T06:23:38.486+00:00\"},\"s\":\"I\",  \"c\":\"STORAGE\",  \"id\":22430,   \"ctx\":\"WTCheckpointThread\",\"msg\":\"WiredTiger message\",\"attr\":{\"message\":\"[1691562218:486001][1:0x7fae222ae700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 167, snapshot max: 167 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0)\"}}",
+        "file": "socialnetwork_post-storage-mongodb_1_logs.txt"
+    }
+]

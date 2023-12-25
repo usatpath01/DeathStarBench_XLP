@@ -1,0 +1,3 @@
+[2023-Aug-19 05:53:36.128554] <info>: (UniqueIdHandler.h:144:GetMachineId) MAC address = 02:42:ac:1a:00:15
+[2023-Aug-19 05:53:36.128755] <info>: (UniqueIdService.cpp:49:main) machine_id = 137
+[2023-Aug-19 05:53:36.128797] <info>: (UniqueIdService.cpp:60:main) Starting the unique-id-service server ...

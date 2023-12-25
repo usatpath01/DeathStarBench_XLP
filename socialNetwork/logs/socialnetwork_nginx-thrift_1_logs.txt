@@ -1,0 +1,281 @@
+2023/08/19 06:04:14 [error] 8#8: *32 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "GET /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 06:04:15 [error] 8#8: *32 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "GET /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 06:06:06 [error] 8#8: *32 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 06:27:20 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 06:27:20 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 06:27:20 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 06:27:20 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 08:10:49 [error] 11#11: *16301 [lua] read.lua:74: ReadUserTimeline(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user-timeline/read HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:11:36 [error] 11#11: *16302 [lua] read.lua:74: ReadUserTimeline(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user-timeline/read HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:13:42 [error] 10#10: *16303 [lua] read.lua:74: ReadHomeTimeline(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/home-timeline/read HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:14:06 [error] 8#8: *16304 [lua] read.lua:74: ReadHomeTimeline(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/home-timeline/read HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:16:52 [error] 8#8: *16309 [lua] read.lua:74: ReadHomeTimeline(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "GET /wrk2-api/home-timeline/read? HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:33:00 [error] 9#9: *26742 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:41:59 [error] 10#10: *32258 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:42:14 [error] 11#11: *32259 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:42:21 [error] 11#11: *32260 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:42:33 [error] 11#11: *32261 [lua] follow.lua:52: Follow(): Follow Failed: User: username_123 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:42:42 [error] 11#11: *32263 [lua] follow.lua:44: Follow(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:42:54 [error] 8#8: *32265 [lua] follow.lua:44: Follow(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:43:06 [error] 10#10: *32268 [lua] follow.lua:70: Follow(): Follow Failed: User: 1234 is not registered, client: 172.25.0.1, server: localhost, request: "POST /api/user/follow HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:43:14 [error] 10#10: *32268 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:43:23 [error] 9#9: *32273 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:43:31 [error] 10#10: *32270 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:43:36 [error] 9#9: *32273 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:43:42 [error] 10#10: *32270 [lua] get_follower.lua:75: GetFollower(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_follower HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/contact.html"
+2023/08/19 08:46:47 [error] 10#10: *32298 [lua] follow.lua:52: Follow(): Follow Failed: User: moo is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:03 [error] 8#8: *32321 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:19 [error] 9#9: *32323 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:20 [error] 11#11: *32327 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:21 [error] 8#8: *32331 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:26 [error] 8#8: *32335 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:33 [error] 10#10: *32338 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:50:40 [error] 11#11: *32343 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:51:20 [error] 8#8: *32349 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:51:40 [error] 8#8: *32353 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:51:41 [error] 8#8: *32357 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:51:42 [error] 10#10: *32360 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:51:43 [error] 8#8: *32364 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:51:45 [error] 11#11: *32368 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:52:06 [error] 11#11: *32372 [lua] follow.lua:52: Follow(): Follow Failed: User: n2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:52:12 [error] 10#10: *32376 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:52:42 [error] 11#11: *32394 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:52:51 [error] 10#10: *32398 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:52:57 [error] 8#8: *32402 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:53:21 [error] 11#11: *32406 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:53:32 [error] 10#10: *32410 [lua] follow.lua:52: Follow(): Follow Failed: User: lola is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:53:34 [error] 11#11: *32413 [lua] follow.lua:52: Follow(): Follow Failed: User: lola is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:53:35 [error] 11#11: *32417 [lua] follow.lua:52: Follow(): Follow Failed: User: lola is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:53:37 [error] 9#9: *32420 [lua] follow.lua:52: Follow(): Follow Failed: User: lola is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 08:53:38 [error] 11#11: *32423 [lua] follow.lua:52: Follow(): Follow Failed: User: lola is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:16:59 [error] 9#9: *32432 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:17:45 [error] 8#8: *32434 [lua] register.lua:35: RegisterUser(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/register HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:17:45 [error] 8#8: *32435 [lua] follow.lua:52: Follow(): Follow Failed: User: n3 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:19:46 [error] 10#10: *32459 [lua] follow.lua:52: Follow(): Follow Failed: User: x2 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:44:05 [error] 11#11: *33433 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/get_followee" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:44:27 [error] 11#11: *33436 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/get_followee" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:44:29 [error] 8#8: *33439 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/get_followee" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 09:47:55 [error] 9#9: *33440 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/get_followee" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /wrk2-api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:13:42 [error] 9#9: *33696 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/login" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:13:50 [error] 10#10: *33698 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/login" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:14:56 [error] 9#9: *33707 [lua] login.lua:35: Login(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "GET /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:15:02 [error] 9#9: *33707 [lua] login.lua:35: Login(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "GET /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:15:04 [error] 9#9: *33707 [lua] login.lua:35: Login(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "GET /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:15:58 [error] 9#9: *33710 [lua] login.lua:51: Login(): User login failure: User: neha22 is not registered, client: 172.25.0.1, server: localhost, request: "POST /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:16:04 [error] 10#10: *33712 [lua] login.lua:51: Login(): User login failure: Incorrect username or password, client: 172.25.0.1, server: localhost, request: "POST /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:16:33 [error] 9#9: *33720 open() "/usr/local/openresty/nginx/pages/wrk2-api/user/get_followee" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /wrk2-api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:26:12 [error] 9#9: *33733 [lua] login.lua:35: Login(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:26:47 [error] 9#9: *33736 [lua] login.lua:35: Login(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 11#11: *33831 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33833 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 8#8: *33835 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 11#11: *33837 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 9#9: *33839 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 8#8: *33841 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33843 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 11#11: *33845 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 8#8: *33847 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 11#11: *33849 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33851 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 9#9: *33853 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33855 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33857 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 9#9: *33859 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33861 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 10#10: *33863 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 11#11: *33865 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 9#9: *33867 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:34 [error] 9#9: *33869 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 8#8: *33871 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33873 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33875 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33877 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33879 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33881 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33883 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33885 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 8#8: *33887 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33889 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33891 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33893 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33895 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33897 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 8#8: *33899 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 8#8: *33901 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33903 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 11#11: *33905 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 8#8: *33907 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:35 [error] 10#10: *33909 [lua] follow.lua:52: Follow(): Follow Failed: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/user/follow HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:33:44 [error] 9#9: *33999 [lua] login.lua:51: Login(): User login failure: User: dummy1 is not registered, client: 172.25.0.1, server: localhost, request: "POST /api/user/login HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 9#9: *34975 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 10#10: *34976 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 11#11: *34977 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 9#9: *34978 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 10#10: *34979 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 10#10: *34980 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:43 [error] 10#10: *34981 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 8#8: *34982 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 10#10: *34983 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 11#11: *34984 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 10#10: *34985 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 11#11: *34986 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 9#9: *34987 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 8#8: *34988 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 9#9: *34989 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 8#8: *34990 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 8#8: *34991 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 9#9: *34992 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 10#10: *34993 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 8#8: *34994 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 11#11: *34995 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 8#8: *34996 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 10#10: *34997 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 11#11: *34998 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 9#9: *34999 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 11#11: *35000 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:44 [error] 9#9: *35001 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 10#10: *35002 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 8#8: *35003 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 11#11: *35004 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 11#11: *35005 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 9#9: *35006 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 8#8: *35007 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 8#8: *35008 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 9#9: *35009 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 8#8: *35010 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 10#10: *35011 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 9#9: *35012 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 10#10: *35013 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:38:45 [error] 10#10: *35014 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 9#9: *35278 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35279 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35280 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 8#8: *35281 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 8#8: *35282 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35283 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 8#8: *35284 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 8#8: *35285 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 8#8: *35286 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35287 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 9#9: *35288 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 9#9: *35289 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 9#9: *35290 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35291 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 9#9: *35292 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 11#11: *35293 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35294 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 10#10: *35295 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 11#11: *35296 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:52 [error] 9#9: *35297 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 9#9: *35298 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35299 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 9#9: *35300 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 10#10: *35301 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 11#11: *35302 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35303 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 11#11: *35304 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 10#10: *35305 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35306 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 11#11: *35307 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 10#10: *35308 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 10#10: *35309 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 11#11: *35310 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35311 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35312 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35313 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35314 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 9#9: *35315 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 10#10: *35316 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 10:39:53 [error] 8#8: *35317 [lua] get_followee.lua:75: GetFollowee(): Get user-timeline failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "GET /api/user/get_followee HTTP/1.1", host: "localhost:8080"
+2023/08/19 13:47:57 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 13:47:57 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 13:47:57 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 13:47:57 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 13:49:30 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 13:49:30 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 13:49:30 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 13:49:30 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 13:58:57 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 13:58:57 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 13:58:57 [alert] 1#1: worker process 7 exited on signal 11 (core dumped)
+2023/08/19 13:58:57 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 14:17:57 [error] 7#7: *1343 [lua] register.lua:33: RegisterUser(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /api/user/register HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:21:57 [error] 7#7: *1372 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:21:57 [error] 9#9: *1373 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:21:57 [error] 7#7: *1374 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:21:57 [error] 7#7: *1375 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:21:57 [error] 10#10: *1376 [lua] compose.lua:34: ComposePost(): Incomplete arguments, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:29:05 [error] 9#9: *1391 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:29:05 [error] 9#9: *1395 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:29:05 [error] 9#9: *1389 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:29:05 [error] 7#7: *1393 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:29:05 [error] 7#7: *1397 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:29:54 [error] 7#7: *1401 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:30:50 [error] 8#8: *1407 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:33:19 [error] 8#8: *1411 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:37:13 [error] 9#9: *1415 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:37:38 [error] 10#10: *1419 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:43:46 [error] 7#7: *1560 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:43:46 [error] 7#7: *1563 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:43:46 [error] 7#7: *1567 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:43:46 [error] 9#9: *1559 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 14:43:46 [error] 10#10: *1564 [lua] compose.lua:62: ComposePost(): compost_post failure: ZADD: no key specified, client: 172.25.0.1, server: localhost, request: "POST /wrk2-api/post/compose HTTP/1.1", host: "localhost:8080"
+2023/08/19 15:01:10 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 15:01:10 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 15:01:10 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 15:01:10 [alert] 1#1: worker process 7 exited on signal 11 (core dumped)
+2023/08/19 15:10:26 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 15:10:26 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 15:10:26 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 15:17:58 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 15:17:58 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 15:17:58 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 15:17:58 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 15:26:22 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 15:40:21 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 16:04:21 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 16:04:22 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 16:04:22 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 16:04:22 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 16:30:06 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 16:30:06 [alert] 1#1: worker process 7 exited on signal 11 (core dumped)
+2023/08/19 16:30:06 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 16:30:06 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 16:37:04 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 16:37:04 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 16:37:04 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 16:37:04 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 16:45:48 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 16:45:48 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 16:45:48 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 16:45:48 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 16:47:59 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 16:47:59 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 17:28:11 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/19 17:28:11 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 17:28:11 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/19 17:28:11 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 17:59:27 [alert] 1#1: worker process 7 exited on signal 11 (core dumped)
+2023/08/19 17:59:27 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/19 17:59:27 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/19 17:59:27 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/21 06:17:27 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/21 06:17:27 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/21 06:17:27 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/21 06:32:22 [alert] 1#1: worker process 7 exited on signal 11 (core dumped)
+2023/08/21 06:32:22 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/21 06:44:13 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/21 07:11:48 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/21 07:38:37 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/22 06:18:43 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/22 06:22:44 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/23 09:28:21 [alert] 1#1: worker process 7 exited on signal 11 (core dumped)
+2023/08/23 09:28:21 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/23 09:29:56 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/23 10:13:04 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/23 10:13:04 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/23 11:41:21 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
+2023/08/23 11:42:37 [alert] 1#1: worker process 11 exited on signal 11 (core dumped)
+2023/08/23 11:42:37 [alert] 1#1: worker process 8 exited on signal 11 (core dumped)
+2023/08/23 11:42:37 [alert] 1#1: worker process 9 exited on signal 11 (core dumped)
+2023/08/23 11:42:37 [alert] 1#1: worker process 10 exited on signal 11 (core dumped)
