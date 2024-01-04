@@ -350,6 +350,7 @@ void ComposePostHandler::_UploadHomeTimelineHelper(
                                             user_mentions_id, writer_text_map);
   } catch (...) {
     _home_timeline_client_pool->Remove(home_timeline_client_wrapper);
+    LOG(error) << "US - Inside home timeline ";
     LOG(error) << "Failed to write home timeline to home-timeline-service";
     throw;
   }
@@ -365,6 +366,7 @@ void ComposePostHandler::ComposePost(
     const std::map<std::string, std::string> &carrier) 
   {
   // LOG(info) << "Request to COMPOSE POST received";
+  LOG(error) << "US - Inside ComposePost";
   LOG(info) << "Request Order : 1";
   TextMapReader reader(carrier);
   auto parent_span = opentracing::Tracer::Global()->Extract(reader);

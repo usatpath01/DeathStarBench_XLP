@@ -21,6 +21,8 @@ services:
     deploy:
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - jaeger-collector
 
@@ -30,16 +32,23 @@ services:
       - jaeger-query
     deploy:
       replicas: 1
+      placement:
+        #constraints: [node.role == worker]
+        constraints: [node.hostname == worker-node-2]
       restart_policy:
         condition: any
     command: ["ComposePostService"]
     hostname: compose-post-service
-    image: deathstarbench/social-network-microservices:latest
+    #image: deathstarbench/social-network-microservices
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
 
   home-timeline-redis:
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - jaeger-agent
       - jaeger-query
@@ -58,9 +67,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["HomeTimelineService"]
     hostname: home-timeline-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -73,6 +84,8 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     hostname: media-frontend
     image: yg397/media-frontend:xenial
     ports:
@@ -87,6 +100,9 @@ services:
       - jaeger-query
     hostname: media-memcached
     image: memcached
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     command:
       - "-m 16384"
       - "-t 8"
@@ -104,6 +120,9 @@ services:
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
+    deploy:
+      placement:
+        constraints: [node.role == worker]
 
   media-service:
     depends_on:
@@ -114,9 +133,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["MediaService"]
     hostname: media-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -129,6 +150,8 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     hostname: nginx-web-server
     image: yg397/openresty-thrift:xenial
     ports:
@@ -148,6 +171,9 @@ services:
       - jaeger-query
     hostname: post-storage-memcached
     image: memcached
+    deploy:
+      placement:
+          constraints: [node.role == worker]
     command:
       - "-m 16384"
       - "-t 8"
@@ -155,6 +181,9 @@ services:
       - "-c 4096"
 
   post-storage-mongodb:
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - jaeger-agent
       - jaeger-query
@@ -175,9 +204,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["PostStorageService"]
     hostname: post-storage-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -188,6 +219,9 @@ services:
       - jaeger-query
     hostname: social-graph-mongodb
     image: mongo:4.4.6
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     command: "mongod --nojournal --quiet --config /social-network-microservices/config/mongod.conf"
     # command: "mongod --serviceExecutor adaptive --listenBacklog 1024 --syncdelay 3600 --wiredTigerCacheSizeGB 16"
     volumes:
@@ -195,6 +229,9 @@ services:
       - ./keys:/keys
 
   social-graph-redis:
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - jaeger-agent
       - jaeger-query
@@ -214,9 +251,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["SocialGraphService"]
     hostname: social-graph-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -227,11 +266,14 @@ services:
       - jaeger-query
     deploy:
       replicas: 1
+      placement:
+        #constraints: [node.role == worker]
+        constraints: [node.hostname == worker-node-4]
       restart_policy:
         condition: any
     command: ["TextService"]
     hostname: text-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -244,9 +286,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["UniqueIdService"]
     hostname: unique-id-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -256,6 +300,9 @@ services:
       - jaeger-agent
       - jaeger-query
     hostname: url-shorten-memcached
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     image: memcached
     command:
       - "-m 16384"
@@ -269,6 +316,9 @@ services:
       - jaeger-query
     hostname: url-shorten-mongodb
     image: mongo:4.4.6
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     command: "mongod --nojournal --quiet --config /social-network-microservices/config/mongod.conf"
     # command: "mongod --serviceExecutor adaptive --listenBacklog 1024 --syncdelay 3600 --wiredTigerCacheSizeGB 36"
     volumes:
@@ -284,9 +334,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["UrlShortenService"]
     hostname: url-shorten-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -297,6 +349,9 @@ services:
       - jaeger-query
     hostname: user-memcached
     image: memcached
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     command:
       - "-m 16384"
       - "-t 8"
@@ -309,11 +364,14 @@ services:
       - jaeger-query
     deploy:
       replicas: 1
+      placement:
+       #constraints: [node.role == worker]
+       constraints: [node.hostname == worker-node-3]
       restart_policy:
         condition: any
     command: ["UserMentionService"]
     hostname: user-mention-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -323,6 +381,9 @@ services:
       - jaeger-agent
       - jaeger-query
     hostname: user-mongodb
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     image: mongo:4.4.6
     command: "mongod --nojournal --quiet --config /social-network-microservices/config/mongod.conf"
     # command: "mongod --serviceExecutor adaptive --listenBacklog 1024 --syncdelay 3600 --wiredTigerCacheSizeGB 8"
@@ -339,9 +400,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["UserService"]
     hostname: user-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -353,6 +416,9 @@ services:
     hostname: user-timeline-mongodb
     image: mongo:4.4.6
     command: "mongod --nojournal --quiet --config /social-network-microservices/config/mongod.conf"
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     # command: "mongod --serviceExecutor adaptive --listenBacklog 1024 --syncdelay 3600 --wiredTigerCacheSizeGB 75"
     volumes:
       - ./config:/social-network-microservices/config
@@ -365,6 +431,9 @@ services:
     hostname: user-timeline-redis
     image: redis
     command: "redis-server /social-network-microservices/config/redis.conf"
+    deploy:
+      placement:
+        constraints: [node.role == worker]
     volumes:
       - ./config:/social-network-microservices/config
       - ./keys:/keys
@@ -377,9 +446,11 @@ services:
       replicas: 1
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     command: ["UserTimelineService"]
     hostname: user-timeline-service
-    image: deathstarbench/social-network-microservices:latest
+    image: usatpath01/socialnetwork-compose-post-service
     volumes:
       - ./config:/social-network-microservices/config
 
@@ -398,6 +469,8 @@ services:
     deploy:
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - cassandra-schema
 
@@ -410,20 +483,28 @@ services:
     deploy:
       restart_policy:
         condition: any
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - cassandra-schema
 
   cassandra-schema:
-    image: jaegertracing/jaeger-cassandra-schema
+    image: jaegertracing/jaeger-cassandra-schema:latest
     deploy:
       restart_policy:
         condition: on-failure
+      placement:
+        constraints: [node.role == worker]
     depends_on:
       - cassandra
 
   cassandra:
     image: cassandra:3.9
+    ports:
+      - "9042:9042"
     deploy:
+      placement:
+        constraints: [node.role == worker]
 
 networks:
   default:
