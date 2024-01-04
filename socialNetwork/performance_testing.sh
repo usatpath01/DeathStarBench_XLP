@@ -113,14 +113,14 @@ output_file="request_times.csv"
 echo "Min,Q1,Median,Q3,Max,Logging Type,GET/POST,Endpoint Name" > "$output_file"
 
 # Register dummy users
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "first_name=dummy1&last_name=dummy1&username=dummy1&password=dummy1" http://localhost:8080/api/user/register
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "first_name=dummy2&last_name=dummy2&username=dummy2&password=dummy2" http://localhost:8080/api/user/register
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "first_name=dummy3&last_name=dummy3&username=dummy3&password=dummy3" http://localhost:8080/api/user/register
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "first_name=dummy1&last_name=dummy1&username=dummy1&password=dummy1" http://10.5.20.184:8080/api/user/register
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "first_name=dummy2&last_name=dummy2&username=dummy2&password=dummy2" http://10.5.20.184:8080/api/user/register
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "first_name=dummy3&last_name=dummy3&username=dummy3&password=dummy3" http://10.5.20.184:8080/api/user/register
 
 # POST REQUEST CREATE POST
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "username=username_1234&user_id=1234&text=$(cat /dev/urandom | tr -dc '\''a-zA-Z0-9'\'' | fold -w 256 | head -n 1)&media_ids=[]&media_types=[]&post_type=0" \
-"http://localhost:8080/wrk2-api/post/compose"'
+"http://10.5.20.184:8080/wrk2-api/post/compose"'
 endpoint_name="COMPOSE POST"
 http_method="POST"
 
@@ -131,39 +131,39 @@ send_requests_tracee "$curl_command" "$endpoint_name" "$http_method"
 # POST REQUEST REGISTER USER
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "first_name=user_$i_$random_number&last_name=user_$i_$random_number&username=user_$i_$random_number&password=user_$i_$random_number" \
-"http://localhost:8080/api/user/register"'
+"http://10.5.20.184:8080/api/user/register"'
 endpoint_name="REGISTER USER"
 http_method="POST"
 send_requests_no_log "$curl_command" "$endpoint_name" "$http_method"
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "first_name=user_$i_$random_number_xlp&last_name=user_$i_$random_number_xlp&username=user_$i_$random_number_xlp&password=user_$i_$random_number_tracee" \
-"http://localhost:8080/api/user/register"'
+"http://10.5.20.184:8080/api/user/register"'
 send_requests_xlp "$curl_command" "$endpoint_name" "$http_method"
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "first_name=user_$i_$random_number_tracee&last_name=user_$i_$random_number_tracee&username=user_$i_$random_number_tracee&password=user_$i_$random_number_tracee" \
-"http://localhost:8080/api/user/register"'
+"http://10.5.20.184:8080/api/user/register"'
 send_requests_tracee "$curl_command" "$endpoint_name" "$http_method"
 
 
 # POST REQUEST FOLLOW USER
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "user_name=user_$i_$random_number&followee_name=dummy1" \
-"http://localhost:8080/wrk2-api/user/follow"'
+"http://10.5.20.184:8080/wrk2-api/user/follow"'
 endpoint_name="FOLLOW USER"
 http_method="POST"
 send_requests_no_log "$curl_command" "$endpoint_name" "$http_method"
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "user_name=user_$i_$random_number&followee_name=dummy2" \
-"http://localhost:8080/wrk2-api/user/follow"'
+"http://10.5.20.184:8080/wrk2-api/user/follow"'
 send_requests_xlp "$curl_command" "$endpoint_name" "$http_method"
 curl_command='curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d "user_name=user_$i_$random_number&followee_name=dummy3" \
-"http://localhost:8080/wrk2-api/user/follow"'
+"http://10.5.20.184:8080/wrk2-api/user/follow"'
 send_requests_tracee "$curl_command" "$endpoint_name" "$http_method"
 
 # GET REQUEST READ USER TIMELINE
 curl_command='curl -X GET -H "Content-Type: application/x-www-form-urlencoded" \
-"http://localhost:8080/wrk2-api/user-timeline/read?user_id=1234&start=$(shuf -i 0-10 -n 1)&stop=$((start + 10))"'
+"http://10.5.20.184:8080/wrk2-api/user-timeline/read?user_id=1234&start=$(shuf -i 0-10 -n 1)&stop=$((start + 10))"'
 endpoint_name="READ USER TIMELINE"
 http_method="GET"
 send_requests_no_log "$curl_command" "$endpoint_name" "$http_method"
@@ -173,7 +173,7 @@ send_requests_tracee "$curl_command" "$endpoint_name" "$http_method"
 
 # GET REQUEST READ HOME TIMELINE
 curl_command='curl -X GET -H "Content-Type: application/x-www-form-urlencoded" \
-"http://localhost:8080/wrk2-api/home-timeline/read?user_id=1234&start=$(shuf -i 0-10 -n 1)&stop=$((start + 10))"'
+"http://10.5.20.184:8080/wrk2-api/home-timeline/read?user_id=1234&start=$(shuf -i 0-10 -n 1)&stop=$((start + 10))"'
 endpoint_name="READ HOME TIMELINE"
 http_method="GET"
 send_requests_no_log "$curl_command" "$endpoint_name" "$http_method"
@@ -182,9 +182,9 @@ send_requests_tracee "$curl_command" "$endpoint_name" "$http_method"
 
 # GET REQUEST GET FOLLOWERS 
 # Login first
-curl -X POST -c cookies.txt -H "Content-Type: application/x-www-form-urlencoded" -d "username=dummy1&password=dummy1" http://localhost:8080/api/user/login
+curl -X POST -c cookies.txt -H "Content-Type: application/x-www-form-urlencoded" -d "username=dummy1&password=dummy1" http://10.5.20.184:8080/api/user/login
 curl_command='curl -X GET -b cookies.txt  \
-"http://localhost:8080/api/user/get_follower"'
+"http://10.5.20.184:8080/api/user/get_follower"'
 endpoint_name="GET FOLLOWERS"
 http_method="GET"
 send_requests_no_log "$curl_command" "$endpoint_name" "$http_method"
