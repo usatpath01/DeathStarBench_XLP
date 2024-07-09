@@ -1,0 +1,11 @@
+socialNetwork/log_analysis/*
+socialNetwork/log_analysis_01/*
+socialNetwork/log_analysis_03/*
+socialNetwork/logs_for_disorder_calculation/*
+socialNetwork/logs_for_disorder_calculation_01/*
+socialNetwork/logs_new/*
+socialNetwork/100_tracee_logs_for_disorder.log
+socialNetwork/Tracee_logs_2000.log
+socialNetwork/disorder_1000re.txt
+socialNetwork/docker_stats/*
+socialNetwork/user-timeline-collector.log
