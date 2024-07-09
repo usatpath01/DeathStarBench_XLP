@@ -1,0 +1,27 @@
+../wrk2/wrk -D exp -t <num-threads> -c <num-conns> -d <duration> -L -s ./wrk2/scripts/social-network/compose-post.lua http://localhost:8080/wrk2-api/post/compose -R <reqs-per-sec>
+
+../wrk2/wrk -D exp -t 16 -c 256 -d 60s -L -s ./wrk2/scripts/social-network/compose-post.lua http://10.5.20.145:8080/wrk2-api/post/compose -R 167
+
+../wrk2/wrk -D exp -t 1 -c 1 -d 10s -L -s ./wrk2/scripts/social-network/read-home-timeline.lua http://10.5.20.145:8080/wrk2-api/home-timeline/read -R 10
+
+../wrk2/wrk -D exp -t 2 -c 10 -d 15s -L -s ./wrk2/scripts/social-network/compose-post.lua http://10.5.20.145:8080/wrk2-api/post/compose -R 10
+
+../wrk2/wrk -D exp -t 2 -c <num-conns> -d <duration> -L -s ./wrk2/scripts/social-network/read-user-timeline.lua http://localhost:8080/wrk2-api/user-timeline/read -R <reqs-per-sec>
+
+../wrk2/wrk -D exp -t <num-threads> -c <num-conns> -d <duration> -L -s ./wrk2/scripts/social-network/read-user-timeline.lua http://localhost:8080/wrk2-api/user-timeline/read -R <reqs-per-sec>
+
+
+
+../wrk2/wrk -D exp -t 1 -c 2 -d 60s -L -s ./wrk2/scripts/social-network/compose-post.lua http://10.5.20.145:8080/wrk2-api/post/compose -R 10
+
+
+../wrk2/wrk - Path to the wrk2 executable.
+-D exp - Use exponential distribution of requests. Using an exponential distribution of requests in the context of wrk2 benchmarking means that the intervals between successive requests follow an exponential distribution. 
+This is often used to simulate realistic traffic patterns.
+-t <num-threads> - Specifies the number of threads to use.
+-c <num-conns> - Specifies the number of connections to open. total number of HTTP connections to keep open with each thread handling N = connections/threads
+-d <duration> - Specifies the duration for which the test should run.
+-L - Prints the latency distribution (min, mean, max, percentiles).
+-s ./wrk2/scripts/social-network/compose-post.lua - Specifies the Lua script to run.
+http://localhost:8080/wrk2-api/post/compose - URL of the endpoint to test.
+-R <reqs-per-sec> - Specifies the rate of requests per second.

@@ -43,7 +43,7 @@ void TextHandler::ComposeText(
     const std::map<std::string, std::string> &carrier) {
   // Initialize a span
   // LOG(info) << "Request to COMPOSE TEXT received";
-  LOG(info) << "Request Order : 2";
+  LOG(info) << "Request Order : 2 , ID : " << req_id;
   TextMapReader reader(carrier);
   std::map<std::string, std::string> writer_text_map;
   TextMapWriter writer(writer_text_map);
@@ -169,7 +169,7 @@ void TextHandler::ComposeText(
   _return.urls = target_urls;
   span->Finish();
   // LOG(info) << "Request to COMPOSE TEXT finised";
-  LOG(info) << "Request Order : 5";
+  LOG(info) << "Request Order : 5, ID : " << req_id;
 }
 
 }  // namespace social_network

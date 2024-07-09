@@ -1,0 +1,74 @@
+Linux 6.2.0-39-generic (master-node) 	08/01/24 	_x86_64_	(4 CPU)
+
+04:05:26 PM IST   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:05:27 PM IST     0    901741    1.00    1.00    0.00    0.00    2.00     2  server
+
+04:05:26 PM IST   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+04:05:27 PM IST     0    901741      0.00      0.00    3732    2304   0.00  server
+
+04:05:26 PM IST   UID       PID StkSize  StkRef  Command
+04:05:27 PM IST     0    901741     132      12  server
+
+04:05:26 PM IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+04:05:27 PM IST     0    901741      0.00      0.00      0.00       0  server
+
+04:05:26 PM IST   UID       PID   cswch/s nvcswch/s  Command
+04:05:27 PM IST     0    901741     62.00      1.00  server
+
+04:05:26 PM IST   UID       PID threads   fd-nr  Command
+04:05:27 PM IST     0    901741       1       6  server
+
+04:05:27 PM IST   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:05:29 PM IST     0    901741    0.00    2.00    0.00    2.00    2.00     2  server
+
+04:05:27 PM IST   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+04:05:29 PM IST     0    901741      0.00      0.00    3732    2304   0.00  server
+
+04:05:27 PM IST   UID       PID StkSize  StkRef  Command
+04:05:29 PM IST     0    901741     132      12  server
+
+04:05:27 PM IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+04:05:29 PM IST     0    901741      0.00      0.00      0.00       0  server
+
+04:05:27 PM IST   UID       PID   cswch/s nvcswch/s  Command
+04:05:29 PM IST     0    901741     67.00    146.00  server
+
+04:05:27 PM IST   UID       PID threads   fd-nr  Command
+04:05:29 PM IST     0    901741       1       6  server
+
+04:05:29 PM IST   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:05:30 PM IST     0    901741    0.00    0.99    0.00    0.00    0.99     2  server
+
+04:05:29 PM IST   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+04:05:30 PM IST     0    901741      0.00      0.00    3732    2304   0.00  server
+
+04:05:29 PM IST   UID       PID StkSize  StkRef  Command
+04:05:30 PM IST     0    901741     132      12  server
+
+04:05:29 PM IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+04:05:30 PM IST     0    901741      0.00      0.00      0.00       0  server
+
+04:05:29 PM IST   UID       PID   cswch/s nvcswch/s  Command
+04:05:30 PM IST     0    901741     72.28     37.62  server
+
+04:05:29 PM IST   UID       PID threads   fd-nr  Command
+04:05:30 PM IST     0    901741       1       6  server
+
+
+Average:      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+Average:        0    901741    0.33    1.33    0.00    0.66    1.66     -  server
+
+Average:      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+Average:        0    901741      0.00      0.00    3732    2304   0.00  server
+
+Average:      UID       PID StkSize  StkRef  Command
+Average:        0    901741     132      12  server
+
+Average:      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+Average:        0    901741      0.00      0.00      0.00       0  server
+
+Average:      UID       PID   cswch/s nvcswch/s  Command
+Average:        0    901741     67.11     61.46  server
+
+Average:      UID       PID threads   fd-nr  Command
+Average:        0    901741       1       6  server

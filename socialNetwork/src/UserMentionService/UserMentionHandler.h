@@ -42,7 +42,7 @@ void UserMentionHandler::ComposeUserMentions(
     const std::map<std::string, std::string> &carrier) {
   // Initialize a span
   // LOG(info) << "Request to COMPOSE USER MENTIONS received";
-   LOG(info) << "Request Order : 3";
+   LOG(info) << "Request Order : 3 , ID : " << req_id;
   TextMapReader reader(carrier);
   std::map<std::string, std::string> writer_text_map;
   TextMapWriter writer(writer_text_map);
@@ -231,7 +231,7 @@ void UserMentionHandler::ComposeUserMentions(
   _return = user_mentions;
   span->Finish();
   // LOG(info) << "Request to COMPOSE USER MENTIONS finished";
-  LOG(info) << "Request Order : 4";
+  LOG(info) << "Request Order : 4, ID : " << req_id;
 }
 
 }  // namespace social_network

@@ -366,8 +366,8 @@ void ComposePostHandler::ComposePost(
     const std::map<std::string, std::string> &carrier) 
   {
   // LOG(info) << "Request to COMPOSE POST received";
-  LOG(error) << "US - Inside ComposePost";
-  LOG(info) << "Request Order : 1";
+  //LOG(error) << "US - Inside ComposePost";
+  LOG(info) << "Request Order : 1, ID : "<< req_id;
   TextMapReader reader(carrier);
   auto parent_span = opentracing::Tracer::Global()->Extract(reader);
   auto span = opentracing::Tracer::Global()->StartSpan(
@@ -445,7 +445,7 @@ void ComposePostHandler::ComposePost(
   // }
   span->Finish();
   // LOG(info) << "Request to COMPOSE POST Finished";
-  LOG(info) << "Request Order : 6";
+  LOG(info) << "Request Order : 6, ID : " << req_id;
 }
 
 }  // namespace social_network

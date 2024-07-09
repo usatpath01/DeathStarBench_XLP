@@ -1,0 +1,59 @@
+26684
+26401
+26659
+26434
+26134
+26330
+26411
+26028
+26391
+26017
+25902
+26324
+26677
+24859
+25207
+25599
+25623
+24858
+25133
+25497
+25420
+25139
+24977
+25514
+25441
+24923
+25368
+
+
+sudo pidstat -drsuvw -p 26684 1 > "pidstat_26684.txt"
+sudo pidstat -drsuvw -p 26401 1 > "pidstat_26401.txt"
+sudo pidstat -drsuvw -p 26659 1 > "pidstat_26659.txt"
+sudo pidstat -drsuvw -p 26434 1 > "pidstat_26434.txt"
+sudo pidstat -drsuvw -p 26134 1 > "pidstat_26134.txt"
+sudo pidstat -drsuvw -p 26330 1 > "pidstat_26330.txt"
+sudo pidstat -drsuvw -p 26411 1 > "pidstat_26411.txt"
+sudo pidstat -drsuvw -p 26028 1 > "pidstat_26028.txt"
+sudo pidstat -drsuvw -p 26391 1 > "pidstat_26391.txt"
+sudo pidstat -drsuvw -p 26017 1 > "pidstat_26017.txt"
+sudo pidstat -drsuvw -p 25902 1 > "pidstat_25902.txt"
+sudo pidstat -drsuvw -p 26324 1 > "pidstat_26324.txt"
+sudo pidstat -drsuvw -p 26677 1 > "pidstat_26677.txt"
+sudo pidstat -drsuvw -p 24859 1 > "pidstat_24859.txt"
+sudo pidstat -drsuvw -p 25207 1 > "pidstat_25207.txt"
+sudo pidstat -drsuvw -p 25599 1 > "pidstat_25599.txt"
+sudo pidstat -drsuvw -p 25623 1 > "pidstat_25623.txt"
+sudo pidstat -drsuvw -p 24858 1 > "pidstat_24858.txt"
+sudo pidstat -drsuvw -p 25133 1 > "pidstat_25133.txt"
+sudo pidstat -drsuvw -p 25497 1 > "pidstat_25497.txt"
+sudo pidstat -drsuvw -p 25420 1 > "pidstat_25420.txt"
+sudo pidstat -drsuvw -p 25139 1 > "pidstat_25139.txt"
+sudo pidstat -drsuvw -p 24977 1 > "pidstat_24977.txt"
+sudo pidstat -drsuvw -p 25514 1 > "pidstat_25514.txt"
+sudo pidstat -drsuvw -p 25441 1 > "pidstat_25441.txt"
+sudo pidstat -drsuvw -p 24923 1 > "pidstat_24923.txt"
+sudo pidstat -drsuvw -p 25368 1 > "pidstat_25368.txt"
+sudo pidstat -drsuvw -p 26684 1 > "pidstat_26684.txt"
+sudo pidstat -drsuvw -p 26684 1 > "pidstat_26684.txt"
+sudo pidstat -drsuvw -p 26684 1 > "pidstat_26684.txt"

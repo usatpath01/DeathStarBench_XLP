@@ -1,0 +1,41 @@
+Master Node
+    148227 /XLP_COLLECTOR
+
+Worker-Node 2
+    44558 /ds_compose-post-service.1.ez2aysgguf51s7ms5gyruwn3k
+    44431 /ds_nginx-web-server.1.soh42m77deu0vggoozmaidbox
+    44326 /ds_media-service.1.fz3kl629o29ain0aoxlarh2mj
+    44257 /ds_post-storage-service.1.spuop0pn0a9ti2jqxy11lxeni
+    44093 /ds_jaeger-query.1.sp5fzipgbah1kkpk09pvotne0
+    43844 /ds_url-shorten-mongodb.1.qewmocoso15tfpzs5d239tbo5
+    43765 /ds_post-storage-memcached.1.qn2ihzqojpuf505yfwr9fduim
+    43617 /ds_social-graph-service.1.nyt9wmpg8rm0ecmrlxcs66ls3
+    43116 /ds_cassandra.1.c5z4uvqw3vf0gw6zyw1uscf85
+    42736 /ds_jaeger-agent.1.nrhc6uqvxjei4l1yuic0voh3w
+    42275 /ds_home-timeline-service.1.jf0ptczpsg6vgw6swl2gvkhi9
+    29771 /XLP_GENERATOR
+
+Worker-Node 3
+    34144 /ds_user-memcached.1.nn3z032nj813lpsi6lgmpe8gm
+    33991 /ds_user-mention-service.1.y4a5yt7vtuq44dnd2342nf0dh
+    33905 /ds_media-memcached.1.vhb390wsc2g0ump5fqhq663z9
+    33684 /ds_user-timeline-service.1.of9mdcypw4qbm6ihdzp7gug52
+    33797 /ds_jaeger-collector.1.zy401j5z9hnug9fmhun7cs0r1
+    33141 /ds_social-graph-mongodb.1.3l9f2pyzymj8kl80smlynhhvx
+    32956 /ds_media-mongodb.1.rwvw3locs2blw851jf0d6bg47
+    32779 /ds_unique-id-service.1.3c2rvd09w2qhz9b820u7m8y4y
+    32623 /ds_url-shorten-memcached.1.48vlcwl90dg3bfjln4ac1ad6p
+    32418 /ds_post-storage-mongodb.1.amgbndpwva09ebcu8pw38j3kt
+    17243 /XLP_GENERATOR
+
+Worker-Node 4
+    52023 /ds_user-timeline-mongodb.1.h4u9j1n6uc5gfk56tbl4ep32o
+    51910 /ds_social-graph-redis.1.ejn8k5vg2si3q63a1zjxcvb44
+    51790 /ds_user-mongodb.1.jom3v5k7kb4cl6xt7wnvgint5
+    51556 /ds_user-timeline-redis.1.p5oq8kom3fbg4x3stbk59rciw
+    51471 /ds_url-shorten-service.1.pk9lwlpwqyueetd0reujiswzo
+    51058 /ds_text-service.1.0wsyzqokqg7mjw8mk4bwlt4bd
+    50897 /ds_user-service.1.j15ubkbup2w0kmsvhsj8ar0pi
+    50664 /ds_media-frontend.1.ldjaxuktj25r7gph2s07w5hfj
+    50434 /ds_home-timeline-redis.1.hkpth9usj5f9s728r0dzap40b
+    35560 /XLP_GENERATOR

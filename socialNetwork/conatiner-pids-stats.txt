@@ -1,0 +1,48 @@
+sudo pidstat -drsuvw -p 148227 1 > pidstat_148227.txt
+
+Worker 2:
+sudo pidstat -drsuvw -p 44558 1 > pidstat_44558.txt
+sudo pidstat -drsuvw -p 44431 1 > pidstat_44431.txt
+sudo pidstat -drsuvw -p 44326 1 > pidstat_44326.txt
+sudo pidstat -drsuvw -p 44257 1 > pidstat_44257.txt
+sudo pidstat -drsuvw -p 44093 1 > pidstat_44093.txt
+sudo pidstat -drsuvw -p 43844 1 > pidstat_43844.txt
+sudo pidstat -drsuvw -p 43765 1 > pidstat_43765.txt
+sudo pidstat -drsuvw -p 43617 1 > pidstat_43617.txt
+sudo pidstat -drsuvw -p 43116 1 > pidstat_43116.txt
+sudo pidstat -drsuvw -p 42736 1 > pidstat_42736.txt
+sudo pidstat -drsuvw -p 42275 1 > pidstat_42275.txt
+sudo pidstat -drsuvw -p 29771 1 > pidstat_29771.txt
+
+Worker 3:
+sudo pidstat -drsuvw -p 34144 1 > pidstat_34144.txt
+sudo pidstat -drsuvw -p 33991 1 > pidstat_33991.txt
+sudo pidstat -drsuvw -p 33905 1 > pidstat_33905.txt
+sudo pidstat -drsuvw -p 33684 1 > pidstat_33684.txt
+sudo pidstat -drsuvw -p 33797 1 > pidstat_33797.txt
+sudo pidstat -drsuvw -p 33141 1 > pidstat_33141.txt
+sudo pidstat -drsuvw -p 32956 1 > pidstat_32956.txt
+sudo pidstat -drsuvw -p 32779 1 > pidstat_32779.txt
+sudo pidstat -drsuvw -p 32623 1 > pidstat_32623.txt
+sudo pidstat -drsuvw -p 32418 1 > pidstat_32418.txt
+sudo pidstat -drsuvw -p 17243 1 > pidstat_17243.txt
+
+Worker 4:
+sudo pidstat -drsuvw -p 52023 1 > pidstat_17243.txt
+sudo pidstat -drsuvw -p 51910 1 > pidstat_51910.txt
+sudo pidstat -drsuvw -p 51790 1 > pidstat_51790.txt
+sudo pidstat -drsuvw -p 51556 1 > pidstat_51556.txt
+sudo pidstat -drsuvw -p 51471 1 > pidstat_51471.txt
+sudo pidstat -drsuvw -p 51058 1 > pidstat_51058.txt
+sudo pidstat -drsuvw -p 50897 1 > pidstat_50897.txt
+sudo pidstat -drsuvw -p 50664 1 > pidstat_50664.txt
+sudo pidstat -drsuvw -p 50434 1 > pidstat_50434.txt
+sudo pidstat -drsuvw -p 35560 1 > pidstat_35560.txt
+
+
+
+10 requests - till 10.15 PM
+50 Request -  till 10.21 PM
+100 Request -  till 10.30 PM
+500 Request - till 10.37 PM
+1000 Request - till 10.40 PM

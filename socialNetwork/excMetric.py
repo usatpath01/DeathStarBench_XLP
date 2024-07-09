@@ -1,3 +1,5 @@
+import sys
+
 def min_swaps_to_sort(filename):
     with open(filename, 'r') as file:
         numbers = [int(line.strip()) for line in file]
@@ -24,7 +26,10 @@ def min_swaps_to_sort(filename):
 
     return swaps
 
-# Example usage
-filename = 'your_input_file.txt'
-result = min_swaps_to_sort(filename)
-print(f"Minimum number of swaps required to sort the numbers: {result}")
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python script_name.py <filename>")
+    else:
+        filename = sys.argv[1]
+        result = min_swaps_to_sort(filename)
+        print(f"Minimum number of swaps required to sort the numbers: {result}")
