@@ -5,6 +5,7 @@ services:
     image: jaegertracing/jaeger-agent:latest
     hostname: jaeger-agent
     command: ["--reporter.grpc.host-port=jaeger-collector:14250"]
+    
     # ports:
     #   - target: 6831
     #     published: 6831
